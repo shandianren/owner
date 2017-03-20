@@ -1,0 +1,270 @@
+@import '_base';
+body{
+  background: #F5F6FA;
+}
+@font-face {
+  font-family: "iconfont";
+  src: url("fontclass/iconfont.woff") ;
+};
+$padding:0rem 0.24rem 0rem 0.24rem;
+//头部
+.header{
+  width:100%;
+  height:0.9rem;
+  background: #0078E6;
+  position: relative;
+  .logo{
+    width:0.7rem;
+    height:0.67rem;
+    background-image: url("../images/w.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    @extend %tb;
+    left:2.7rem;
+
+  }
+  h1{
+    font-size: 0.36rem;
+    color:#fff;
+    font-family: '微软雅黑';
+    @extend %tb;
+    left:3.62rem;
+    line-height:0.9rem ;
+  }
+}
+//banner
+.banner{
+  width:100%;
+  height:2.8rem;
+  background: url("../images/w1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  line-height: 2.8rem;
+  font-size: 0.3rem;
+  color:#fff;
+  font{
+    font-size: 0.3rem;
+  }
+
+}
+//面包屑
+.bread{
+  width:100%;
+  height:0.9rem;
+  background: #F5F6FA;
+  padding:$padding;
+  position: relative;
+  p{
+    @extend %tb;
+    line-height: 0.9rem;
+    font-size: 0.22rem;
+    color:#4D4B4B;
+  }
+  a{
+    font-size: 0.22rem;
+    color:#4D4B4B;
+  }
+}
+//内容
+.conb .con.ri{
+  display: block;
+  animation:rightin 0.8s ease both;
+}
+.conb .con.ro{
+  display: block;
+  animation:rightout 0.8s ease both;
+}
+.conb .con.li{
+
+  display: block;
+  animation:leftin 0.8s ease both;
+}
+.conb .con.lo{
+  display: block;
+  animation:leftout 0.8s ease both;
+}
+.conb{
+  position: relative;
+  width:100%;
+  height:10rem;
+  overflow: hidden;
+  .con{
+    width:100%;
+    padding:$padding;
+    background: #fff;
+    display: none;
+    position: absolute;
+    top:0;
+    .ul{
+      width:100%;
+      height:3.37rem;
+      background: #fff;
+      border-bottom:1px solid #f5f6fa;
+      position: relative;
+      h1{
+        color:black;
+        font-size: 0.26rem;
+        padding-top: 0.2rem;
+      }
+      .img{
+        width:1.92rem;
+        height:1.6rem;
+        background: url("../images/w37.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 0.28rem;
+        margin-left: 0.13rem;
+        position: relative;
+        .img1{
+          width:1.94rem;
+          height:1.44rem;
+          background:#c8c8c8;
+          position: absolute;
+          top:0.11rem;
+          right: 0.11rem;
+          z-index: 10;
+        }
+      }
+      .p{
+        font-size: 0.24rem;
+        width:4.64rem;
+        color:#494747;
+        position: absolute;
+        top:1rem;
+        right:0;
+
+      }
+      .dianji{
+        width:100%;
+        height: 0.7rem;
+        border-top:1px solid #f5f6fa;
+        margin-top: 0.2rem;
+        .li{
+          width:33.33%;
+          height: 100%;
+          float: left;
+          position: relative;
+          img{
+            position: absolute;
+            @extend %tb;
+            left:0;
+          }
+          p{
+            color:#666666;
+            font-size: 0.2rem;
+            position: absolute;
+            @extend %tb;
+            line-height: 0.74rem;
+            left:0.6rem;
+          }
+        }
+      }
+    }
+  }
+}
+.conb .con.active{
+  display: block;
+}
+//跳转
+#pag{
+  width:100%;
+  background: #fff;
+}
+.pag{
+  height:0.7rem;
+  background: #fff;
+  padding: 0.19rem 0rem 0.19rem 0.36rem;
+  .pag-left{
+    @include rect(0.58rem,0.32rem);
+    border-radius: 0.5rem;
+    border: 1px solid #b3b3b3;
+    float: left;
+    position: relative;
+    font-family: 'iconfont';
+    text-align: center;
+    line-height: 0.32rem;
+    .pag-nei{
+      @include rect(0.45rem,0.20rem);
+      border-radius: 0.5rem;
+      border: 1px solid #000;
+      @extend %center;
+    }
+  }
+
+}
+.pag-one{
+  @include rect(0.34rem,0.34rem);
+  border-radius: 50%;
+  border: 1px solid #b3b3b3;
+  float: left;
+  margin-left: 0.01rem;
+  position: relative;
+  text-align: center;
+  line-height: 0.34rem;
+  font-size: 0.14rem;
+  .pag-one-nei{
+    @include rect(0.25rem,0.25rem);
+    @extend %center;
+    border-radius: 50%;
+    border: 1px solid #000;
+
+  }
+}
+.pag-sheng{
+  @include rect(0.49rem,0.3rem);
+  float: left;
+  margin-left: 0.1rem;
+  position: relative;
+  .pag-span{
+    @include rect(0.49rem,0.2rem);
+    position: relative;
+    top:-0.15rem;
+    left:0;
+
+  }
+}
+#span{
+  font-size: 0.14rem;
+  position: relative;
+  top:-0.08rem;
+  left:0.05rem;
+}
+#pag1{
+  font-size: 0.14rem;
+  position: relative;
+  top:-0.08rem;
+  left:0.05rem;
+}
+.pag-left.pag-right{
+  margin-left: 0.15rem;
+  font-family: 'iconfont';
+}
+.text{
+  height:0.3rem;
+  float: left;
+  font-size: 0.14rem;
+  margin-left: 0.1rem;
+  span{
+    float: left;
+  }
+}
+#pag .pag .pag-one.active{
+  background: #01B5FF;
+  color:#fff;
+  .pag-one-nei{
+    border: 1px solid #fff;
+  }
+}
+//尾部
+.bottom{
+  width:5.6rem;
+  height:0.8rem;
+  @extend %lr;
+  margin-top: 0.3rem;
+  p{
+    font-size: 0.2rem;
+    text-align: center;
+  }
+
+}

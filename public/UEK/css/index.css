@@ -1,0 +1,379 @@
+@charset "UTF-8";
+.header .logo, .header h1, .fuwu .fuwucon .fuwucon1 .fuwuli1 .img1, .fuwu .fuwucon .fuwucon1 .fuwuli1 .img2, .fuwu .fuwucon .fuwucon2 .fuwucon2li .img3, .fuwu .fuwucon .fuwucon2 .fuwucon2li .img4, .fuwu .fuwucon .fuwucon2 .fuwucon2li .img5, .searchb .seul .seli .sou, .searchb .seul .seli .dian, .searchb .seul .seli .zai {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.banner p, .con .conul .conli .img, .con .conul .conli .img img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+@keyframes rightin {
+  0% {
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes rightout {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes leftin {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes leftout {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+body {
+  background: #F5F6FA;
+}
+
+h4 {
+  color: black;
+}
+
+.header {
+  width: 100%;
+  height: 0.9rem;
+  background: #0078E6;
+  position: relative;
+}
+
+.header .logo {
+  width: 0.7rem;
+  height: 0.67rem;
+  background-image: url("../images/w.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 2.7rem;
+}
+
+.header h1 {
+  font-size: 0.36rem;
+  color: #fff;
+  font-family: '微软雅黑';
+  left: 3.62rem;
+  line-height: 0.9rem;
+}
+
+.banner .li1.ri {
+  display: block;
+  animation: rightin 0.8s ease both;
+}
+
+.banner .li1.ro {
+  display: block;
+  animation: rightout 0.8s ease both;
+}
+
+.banner .li1.li {
+  display: block;
+  animation: leftin 0.8s ease both;
+}
+
+.banner .li1.lo {
+  display: block;
+  animation: leftout 0.8s ease both;
+}
+
+.banner {
+  width: 100%;
+  height: 2.8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner p {
+  text-align: center;
+  line-height: 2.8rem;
+  font-size: 0.3rem;
+  color: #fff;
+  position: absolute;
+  z-index: 200;
+}
+
+.banner .bannerb {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.banner .li1 {
+  background: url("../images/w1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.banner font {
+  font-size: 0.3rem;
+}
+
+.banner .li1.active {
+  display: block;
+}
+
+.con {
+  width: 100%;
+  height: 4.8rem;
+  background: #F5F6FA;
+  padding: 0rem 0.24rem 0rem 0.24rem;
+}
+
+.con .conul {
+  margin-top: 0.2rem;
+}
+
+.con .conul .conlib {
+  width: 1.55rem;
+  height: 2rem;
+  display: inline-block;
+  margin-top: 0.2rem;
+  margin-left: 0.1rem;
+}
+
+.con .conul .conlib P {
+  text-align: center;
+  margin-top: 0.1rem;
+  font-size: 0.24rem;
+}
+
+.con .conul .conli {
+  width: 1.55rem;
+  height: 1.55rem;
+  border-radius: 0.2rem;
+  background: #fff;
+  position: relative;
+}
+
+.con .conul .conli .img {
+  width: 0.95rem;
+  height: 0.94rem;
+}
+
+.con .conul .conli .img img {
+  width: 0.95rem;
+  height: 0.94rem;
+}
+
+.fuwu {
+  width: 100%;
+  height: 3.8rem;
+  background: #fff;
+}
+
+.fuwu h3 {
+  width: 100%;
+  height: 0.52rem;
+  font-size: 0.24rem;
+  color: #0276BC;
+  text-align: center;
+  line-height: 0.52rem;
+}
+
+.fuwu .fuwucon .fuwucon1 {
+  width: 100%;
+  height: 2.04rem;
+  border-top: 0.01rem solid #EAEAEA;
+  border-left: 0.01rem solid #EAEAEA;
+}
+
+.fuwu .fuwucon .fuwucon1 .fuwuli1 {
+  width: 50%;
+  height: 100%;
+  border-right: 0.01rem solid #EAEAEA;
+  box-sizing: border-box;
+  position: relative;
+  border-bottom: 0.01rem solid #EAEAEA;
+  float: left;
+}
+
+.fuwu .fuwucon .fuwucon1 .fuwuli1 h4 {
+  font-size: 0.24rem;
+  padding-top: 0.35rem;
+  padding-left: 0.18rem;
+}
+
+.fuwu .fuwucon .fuwucon1 .fuwuli1 h5 {
+  font-size: 0.18rem;
+  color: #A2A2A2;
+  padding-left: 0.18rem;
+}
+
+.fuwu .fuwucon .fuwucon1 .fuwuli1 .img1 {
+  width: 1.32rem;
+  height: 1.32rem;
+  background: url("../images/w10.png");
+  background-size: contain;
+  right: 0.46rem;
+}
+
+.fuwu .fuwucon .fuwucon1 .fuwuli1 .img2 {
+  width: 1.32rem;
+  height: 1.32rem;
+  background: url("../images/w11.png") no-repeat;
+  background-size: contain;
+  right: 0.32rem;
+}
+
+.fuwu .fuwucon .fuwucon2 {
+  width: 100%;
+  height: 1.3rem;
+  border: 0.01rem solid #EAEAEA;
+}
+
+.fuwu .fuwucon .fuwucon2 .fuwucon2li {
+  width: 33.33%;
+  height: 100%;
+  position: relative;
+  border-right: 0.01rem solid #EAEAEA;
+  box-sizing: border-box;
+  border-bottom: 0.01rem solid #EAEAEA;
+  float: left;
+}
+
+.fuwu .fuwucon .fuwucon2 .fuwucon2li .img3 {
+  width: 0.6rem;
+  height: 0.6rem;
+  background: url("../images/w12.png");
+  background-size: contain;
+  float: left;
+  margin-left: 0.18rem;
+}
+
+.fuwu .fuwucon .fuwucon2 .fuwucon2li .img4 {
+  width: 0.6rem;
+  height: 0.6rem;
+  background: url("../images/w13.png");
+  background-size: contain;
+  float: left;
+  margin-left: 0.18rem;
+}
+
+.fuwu .fuwucon .fuwucon2 .fuwucon2li .img5 {
+  width: 0.6rem;
+  height: 0.6rem;
+  background: url("../images/w14.png");
+  background-size: contain;
+  float: left;
+  margin-left: 0.18rem;
+}
+
+.fuwu .fuwucon .fuwucon2 .fuwucon2li h4 {
+  font-size: 0.24rem;
+  padding-top: 0.28rem;
+  padding-left: 0.18rem;
+  margin-left: 0.8rem;
+}
+
+.fuwu .fuwucon .fuwucon2 .fuwucon2li h5 {
+  font-size: 0.18rem;
+  color: #A2A2A2;
+  padding-left: 0.18rem;
+  margin-left: 0.8rem;
+}
+
+.searchb .seul .seli.active {
+  width: 2.34rem;
+  height: 0.75rem;
+  background: url("../images/w18.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.searchb {
+  width: 100%;
+  height: 0.75rem;
+  margin-top: 0.2rem;
+  padding: 0rem 0.24rem 0rem 0.24rem;
+  position: relative;
+  background: #fff;
+}
+
+.searchb .seul .seli {
+  width: 33.33%;
+  height: 0.75rem;
+  float: left;
+  position: relative;
+}
+
+.searchb .seul .seli .sou {
+  width: 0.33rem;
+  height: 0.31rem;
+  background: url("../images/w15.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.searchb .seul .seli .dian {
+  width: 0.33rem;
+  height: 0.31rem;
+  background: url("../images/w16.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 0.3rem;
+}
+
+.searchb .seul .seli .zai {
+  width: 0.33rem;
+  height: 0.31rem;
+  background: url("../images/w17.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 0.3rem;
+}
+
+.searchb .seul .seli h3 {
+  line-height: 0.75rem;
+  color: black;
+  font-size: 0.24rem;
+  padding-left: 0.5rem;
+}
+
+.searchb .seul .seli h1 {
+  text-align: center;
+  line-height: 0.75rem;
+  color: #fff;
+  font-size: 0.26rem;
+  padding-left: 0.25rem;
+}
+
+.searchb .seul .seli h2 {
+  line-height: 0.75rem;
+  color: black;
+  font-size: 0.24rem;
+  padding-left: 0.8rem;
+}
+
+/*# sourceMappingURL=index.css.map */

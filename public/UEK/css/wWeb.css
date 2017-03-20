@@ -1,0 +1,319 @@
+@charset "UTF-8";
+.header .logo, .header h1, .bread p {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.con .jianjie .left .left1, .con .jianjie .con2 .imgsss, .con .jianjie .con2 .imgsqs, .con .jianjie .h5li img, .con .jianjie .h5li p, .baog .bao, .bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+@keyframes rightin {
+  0% {
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes rightout {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes leftin {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes leftout {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+body {
+  background: #F5F6FA;
+}
+
+i {
+  font-family: '宋体';
+  font-weight: bold;
+}
+
+font {
+  font-size: 0.24rem;
+  font-weight: normal;
+}
+
+.ll {
+  color: #ffa201;
+  font-size: 0.20rem;
+}
+
+.nn {
+  font-size: 0.24rem;
+  color: #666666;
+}
+
+table {
+  width: 100%;
+  height: 4.9rem;
+}
+
+td {
+  height: 0.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.kk {
+  font-size: 0.24rem;
+  color: black;
+}
+
+tr {
+  margin-top: 0.5rem;
+}
+
+.header {
+  width: 100%;
+  height: 0.9rem;
+  background: #0078E6;
+  position: relative;
+}
+
+.header .logo {
+  width: 0.7rem;
+  height: 0.67rem;
+  background-image: url("../images/w.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 2.7rem;
+}
+
+.header h1 {
+  font-size: 0.36rem;
+  color: #fff;
+  font-family: '微软雅黑';
+  left: 3.62rem;
+  line-height: 0.9rem;
+}
+
+.banner {
+  width: 100%;
+  height: 2.8rem;
+  background: url("../images/w1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  line-height: 2.8rem;
+  font-size: 0.3rem;
+  color: #fff;
+}
+
+.banner font {
+  font-size: 0.3rem;
+}
+
+.bread {
+  width: 100%;
+  height: 0.9rem;
+  background: #F5F6FA;
+  padding: 0rem 0.24rem 0rem 0.24rem;
+  position: relative;
+}
+
+.bread p {
+  line-height: 0.9rem;
+  font-size: 0.22rem;
+  color: #4D4B4B;
+}
+
+.bread a {
+  font-size: 0.22rem;
+  color: #4D4B4B;
+}
+
+.con {
+  width: 100%;
+  min-height: 1rem;
+  padding: 0rem 0.24rem 0rem 0.24rem;
+}
+
+.con .jianjie {
+  width: 100%;
+  height: 7.2rem;
+  background: #fff;
+  margin-top: 0.35rem;
+}
+
+.con .jianjie div {
+  float: left;
+}
+
+.con .jianjie .left {
+  height: 100%;
+  width: 0.4rem;
+  position: relative;
+}
+
+.con .jianjie .left .left1 {
+  width: 0.04rem;
+  height: 0.2rem;
+  background: #01b5ff;
+  top: 0.32rem;
+}
+
+.con .jianjie .left .left2 {
+  width: 0.23rem;
+  height: 3.4rem;
+  background: url("../images/w35.png");
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  top: 1.9rem;
+}
+
+.con .jianjie .con2 {
+  width: 6.42rem;
+  height: 100%;
+  position: relative;
+}
+
+.con .jianjie .con2 h3 {
+  color: #575757;
+  line-height: 0.72rem;
+  font-size: 0.24rem;
+  height: 0.72rem;
+  padding-top: 0.1rem;
+  border-bottom: 0.01rem dashed #C0C0C0;
+  font-weight: bolder;
+}
+
+.con .jianjie .con2 p {
+  font-size: 0.24rem;
+}
+
+.con .jianjie .con2 .imgsss {
+  width: 5.39rem;
+  height: 3.62rem;
+  margin-top: 0.24rem;
+}
+
+.con .jianjie .con2 .imgsqs {
+  width: 6.47rem;
+  height: 3.62rem;
+  margin-top: 0.44rem;
+}
+
+.con .jianjie .con2 h5 {
+  text-align: center;
+  margin-top: 4.2rem;
+}
+
+.con .jianjie .con2 .jiuli {
+  width: 100%;
+  height: 0.56rem;
+  margin-top: 0.2rem;
+  position: relative;
+}
+
+.con .jianjie .con2 .jiuli img {
+  width: 0.56rem;
+  height: 0.56rem;
+}
+
+.con .jianjie .con2 .jiuli h6 {
+  position: absolute;
+  top: 0;
+  left: 0.76rem;
+  font-size: 0.24rem;
+  color: #01b5ff;
+}
+
+.con .jianjie .con2 .jiuli p {
+  color: #3e3a39;
+  font-size: 0.2rem;
+  position: absolute;
+  left: 0.76rem;
+  bottom: 0;
+}
+
+.con .jianjie.jianjie1 {
+  height: 5.76rem;
+}
+
+.con .jianjie.jianjie2 {
+  height: 2.3rem;
+}
+
+.con .jianjie .concon {
+  width: 100%;
+}
+
+.con .jianjie.jianjie3 {
+  height: 4.6rem;
+}
+
+.con .jianjie .h5li {
+  float: left;
+  width: 25%;
+  height: 100%;
+  position: relative;
+}
+
+.con .jianjie .h5li img {
+  width: 1.33rem;
+  height: 1.33rem;
+  top: 0.25rem;
+}
+
+.con .jianjie .h5li p {
+  font-size: 0.24rem;
+  text-align: center;
+  bottom: 0.32rem;
+}
+
+.baog {
+  height: 1.68rem;
+  margin-top: 0.26rem;
+}
+
+.baog .bao {
+  width: 1.68rem;
+  height: 1.68rem;
+  background: url("../images/w20.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bottom {
+  width: 5.6rem;
+  height: 0.8rem;
+  margin-top: 0.3rem;
+}
+
+.bottom p {
+  font-size: 0.2rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=wWeb.css.map */

@@ -1,0 +1,56 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+ul,li{
+  list-style:none;
+}
+a{
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,a,div,li{
+  font-size:14px;
+  font-family: "微软雅黑";
+}
+%form{
+     position: relative;
+     float: left;
+     }
+     
+
+   
+
+ $break-point:(
+    'xs':0,
+    'sm':750px,
+    'md':970px,
+    'lg':1170px
+);
+$cols:12 !default;
+ @each $name in map_keys($break-point){
+     @for $i from 1 through $cols{
+         .col-#{$name}-#{$i}{
+             @extend %form;
+         }
+     }
+     $s:map_get($break-point,$name);
+     @if ($cols == 0){
+         @for $i from 1 through $cols {
+            .col-#{$name}-#{$i} {
+             width:percentage($i/$cols);
+          }
+         }
+        } @else {
+            @media (min-width:map_get($break-point,$name)){
+             @for $i from 1 through $cols {
+            .col-#{$name}-#{$i} {
+            width:percentage($i/$cols)
+               }
+            }
+         }
+     }
+ }
+
+   
+

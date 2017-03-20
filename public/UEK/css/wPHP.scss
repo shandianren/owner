@@ -1,0 +1,247 @@
+@import '_base';
+body{
+  background: #F5F6FA;
+}
+$padding:0rem 0.24rem 0rem 0.24rem;
+i{
+  font-family: '宋体';
+  font-weight: bold;
+}
+font{
+  font-size: 0.24rem;
+  font-weight: normal;
+}
+.ll {
+  color: #ffa201;
+  font-size: 0.20rem;
+}
+.nn {
+  font-size: 0.24rem;
+  color: #666666;
+}
+table{
+  width:100%;
+  height: 4.9rem;
+}
+td{
+  height: 0.5rem;
+  margin:0;
+  padding:0;
+}
+.kk {
+  font-size: 0.24rem;
+  color: black;
+}
+tr{
+  margin-top: 0.5rem;
+}
+
+.header{
+  width:100%;
+  height:0.9rem;
+  background: #0078E6;
+  position: relative;
+  .logo{
+    width:0.7rem;
+    height:0.67rem;
+    background-image: url("../images/w.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    @extend %tb;
+    left:2.7rem;
+
+  }
+  h1{
+    font-size: 0.36rem;
+    color:#fff;
+    font-family: '微软雅黑';
+    @extend %tb;
+    left:3.62rem;
+    line-height:0.9rem ;
+  }
+}
+//banner
+.banner{
+  width:100%;
+  height:2.8rem;
+  background: url("../images/w1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  line-height: 2.8rem;
+  font-size: 0.3rem;
+  color:#fff;
+  font{
+    font-size: 0.3rem;
+  }
+
+}
+//面包屑
+.bread{
+  width:100%;
+  height:0.9rem;
+  background: #F5F6FA;
+  padding:$padding;
+  position: relative;
+  p{
+    @extend %tb;
+    line-height: 0.9rem;
+    font-size: 0.22rem;
+    color:#4D4B4B;
+  }
+  a{
+    font-size: 0.22rem;
+    color:#4D4B4B;
+  }
+}
+//内容
+.con{
+  width:100%;
+  min-height:1rem;
+  padding:$padding;
+  .jianjie{
+    width:100%;
+    height:7.2rem;
+    background: #fff;
+    margin-top: 0.35rem;
+    div{
+      float: left;
+    }
+    .left{
+      height:100%;
+      width:0.4rem;
+      position: relative;
+      .left1{
+        width:0.04rem;
+        height:0.2rem;
+        background: #01b5ff;
+        @extend %lr;
+        top:0.32rem;
+      }
+      .left2{
+        width:0.23rem;
+        height:3.4rem;
+        background: url("../images/w35.png");
+        background-size:cover ;
+        position: absolute;
+        right:0;
+        top:1.9rem;
+      }
+    }
+    .con2{
+      width:6.42rem;
+      height:100%;
+      position: relative;
+      h3{
+        color:#575757;
+        line-height: 0.72rem;
+        font-size: 0.24rem;
+        height:0.72rem;
+        padding-top: 0.1rem;
+        border-bottom: 0.01rem dashed #C0C0C0;
+        font-weight: bolder;
+      }
+      p{
+
+        font-size: 0.24rem;
+      }
+      .imgsss{
+        width:5.39rem;
+        height:3.62rem;
+        margin-top: 0.24rem;
+        @extend %lr;
+      }
+      .imgsqs{
+        width:6.47rem;
+        height:3.62rem;
+        margin-top: 0.44rem;
+        @extend %lr;
+      }
+      h5{
+        text-align: center;
+        margin-top: 4.2rem;
+      }
+      .jiuli{
+        width:100%;
+        height:0.56rem;
+        margin-top: 0.2rem;
+        position: relative;
+        img{
+          width:0.56rem;
+          height:0.56rem;
+        }
+        h6{
+          position: absolute;
+          top:0;
+          left:0.76rem;
+          font-size: 0.24rem;
+          color:#01b5ff;
+        }
+        p{
+          color:#3e3a39;
+          font-size: 0.2rem;
+          position: absolute;
+          left:0.76rem;
+          bottom:0;
+        }
+
+      }
+    }
+
+  }
+}
+.con .jianjie.jianjie1{
+  height:5.76rem;
+}
+.con .jianjie.jianjie2{
+  height:2.3rem;
+}
+.con .jianjie .concon{
+  width:100%;
+}
+.con .jianjie.jianjie3{
+  height:4.6rem;
+}
+.con .jianjie .h5li{
+  float: left;
+  width:25%;
+  height: 100%;
+  position: relative;
+  img{
+    width:1.33rem;
+    height:1.33rem;
+    @extend %lr;
+    top:0.25rem;
+  }
+  p{
+    font-size: 0.24rem;
+    @extend %lr;
+    text-align: center;
+    bottom:0.32rem;
+  }
+}
+//报名
+.baog{
+  height:1.68rem;
+  margin-top: 0.26rem;
+  .bao{
+    width:1.68rem;
+    height:1.68rem;
+    @extend %lr;
+    background: url("../images/w20.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+//尾部
+.bottom{
+  width:5.6rem;
+  height:0.8rem;
+  @extend %lr;
+  margin-top: 0.3rem;
+  p{
+    font-size: 0.2rem;
+    text-align: center;
+  }
+
+}

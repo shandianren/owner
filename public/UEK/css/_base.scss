@@ -1,0 +1,109 @@
+//混合宏和占位符
+@mixin rect($width:800px,$height:200px){
+  width: $width;
+  height:$height;
+}
+@mixin cube($width:200px){
+  width:$width;
+  height:$width;
+}
+@mixin circle($size:100px){
+  @include cube($size);
+  border-radius:50%;
+}
+@function randomColor(){
+  $red:random(255);
+  $blue:random(255);
+  $green:random(255);
+  @return rgba($red,$blue,$green,0.5);
+}
+@mixin bg($color){
+  @if ($color){
+    background-color: $color;
+  }@else{
+    background:randomColor();
+  }
+}
+%tb{
+  position: absolute;
+  top:0;
+  bottom:0;
+  margin:auto;
+}
+%lr{
+  position: absolute;
+  left:0;
+  right:0;
+  margin:auto;
+}
+%center{
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:auto;
+}
+%cover{
+  position: absolute;
+  height: 100%;
+  width:100%;
+  top:0;
+  left:0;
+  margin:auto;
+}
+$small:735px !default;
+$middle:980px !default;
+$large:1170px !default;
+@mixin onSmall {
+  @media (max-width: $small) {
+    @content;
+  }
+};
+@mixin onMiddle {
+  @media (max-width: $middle) {
+    @content;
+  }
+};
+@mixin onLarge {
+  @media (max-width: $large) {
+    @content;
+  }
+};
+@keyframes rightin{
+  0%{
+    transform: translate3d(100%,0,0);
+  }
+  100%{
+    transform: translate3d(0,0,0);
+  }
+
+
+}
+@keyframes  rightout{
+  0%{
+    transform: translate3d(0,0,0);
+  }
+  100%{
+    transform: translate3d(-100%,0,0);
+  }
+
+}
+@keyframes leftin{
+  0%{
+    transform: translate3d(-100%,0,0);
+  }
+  100%{
+    transform: translate3d(0,0,0);
+  }
+
+}
+@keyframes leftout{
+  0%{
+    transform: translate3d(0,0,0);
+  }
+  100%{
+    transform: translate3d(100%,0,0);
+  }
+
+}

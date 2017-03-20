@@ -1,0 +1,318 @@
+@import '_base';
+body{
+  background: #F5F6FA;
+}
+$padding:0rem 0.24rem 0rem 0.24rem;
+h4{
+  color:black;
+}
+//头部
+.header{
+  width:100%;
+  height:0.9rem;
+  background: #0078E6;
+  position: relative;
+  .logo{
+    width:0.7rem;
+    height:0.67rem;
+    background-image: url("../images/w.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    @extend %tb;
+    left:2.7rem;
+
+  }
+  h1{
+    font-size: 0.36rem;
+    color:#fff;
+    font-family: '微软雅黑';
+    @extend %tb;
+    left:3.62rem;
+    line-height:0.9rem ;
+  }
+}
+//banner
+.banner .li1.ri{
+  display: block;
+  animation:rightin 0.8s ease both;
+}
+.banner .li1.ro{
+  display: block;
+  animation:rightout 0.8s ease both;
+}
+.banner .li1.li{
+  display: block;
+  animation:leftin 0.8s ease both;
+}
+.banner .li1.lo{
+  display: block;
+  animation:leftout 0.8s ease both;
+}
+.banner{
+  width:100%;
+  height:2.8rem;
+  position: relative;
+  overflow: hidden;
+  p{
+    text-align: center;
+    line-height: 2.8rem;
+    font-size: 0.3rem;
+    color:#fff;
+    position: absolute;
+    @extend %center;
+    z-index: 200;
+  }
+  .bannerb{
+    width:100%;
+    height: 100%;
+    position: relative;
+  }
+  .li1{
+    background: url("../images/w1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top:0;
+    width:100%;
+    height:100%;
+
+    display: none;
+  }
+  font{
+    font-size: 0.3rem;
+  }
+
+}
+.banner .li1.active{
+  display: block;
+}
+//内容
+.con{
+   width:100%;
+  height:4.8rem;
+  background: #F5F6FA;
+  padding:$padding;
+  .conul{
+    margin-top: 0.2rem;
+    .conlib{
+      width:1.55rem;
+      height:2rem;
+      display: inline-block;
+      margin-top: 0.2rem;
+      margin-left: 0.1rem;
+      P{
+        text-align: center;
+        margin-top: 0.1rem;
+        font-size: 0.24rem;
+      }
+    }
+    .conli{
+
+      width:1.55rem;
+      height:1.55rem;
+      border-radius: 0.2rem;
+      background: #fff;
+      position: relative;
+      .img{
+        @extend %center;
+        width:0.95rem;
+        height:0.94rem;
+        img{
+          @extend %center;
+          width:0.95rem;
+          height:0.94rem;
+        }
+
+      }
+
+
+    }
+  }
+}
+//服务体系
+.fuwu {
+  width: 100%;
+  height: 3.8rem;
+  background: #fff;
+  h3 {
+    width: 100%;
+    height: 0.52rem;
+    font-size: 0.24rem;
+    color: #0276BC;
+    text-align: center;
+    line-height: 0.52rem;
+  }
+  .fuwucon {
+    .fuwucon1 {
+      width: 100%;
+      height: 2.04rem;
+      border-top: 0.01rem solid #EAEAEA;
+      border-left:0.01rem solid #EAEAEA;
+      .fuwuli1 {
+        width: 50%;
+        height: 100%;
+        border-right: 0.01rem solid #EAEAEA;
+        box-sizing: border-box;
+        position: relative;
+        border-bottom:0.01rem solid #EAEAEA ;
+        float: left;
+        h4 {
+          font-size: 0.24rem;
+          padding-top: 0.35rem;
+          padding-left: 0.18rem;
+
+        }
+        h5 {
+          font-size: 0.18rem;
+          color: #A2A2A2;
+          padding-left: 0.18rem;
+        }
+        .img1 {
+          width: 1.32rem;
+          height: 1.32rem;
+          background: url("../images/w10.png");
+          background-size: contain;
+          @extend %tb;
+          right: 0.46rem;
+
+        }
+        .img2 {
+          width: 1.32rem;
+          height: 1.32rem;
+          background: url("../images/w11.png") no-repeat;
+          background-size: contain;
+          @extend %tb;
+          right: 0.32rem;
+        }
+      }
+    }
+    .fuwucon2 {
+      width: 100%;
+      height: 1.3rem;
+      border:0.01rem solid #EAEAEA;
+      .fuwucon2li{
+       width:33.33%;
+        height:100%;
+        position: relative;
+        border-right:0.01rem solid #EAEAEA;
+        box-sizing: border-box;
+        border-bottom:0.01rem solid #EAEAEA ;
+        float: left;
+        .img3 {
+          width: 0.6rem;
+          height: 0.6rem;
+          background: url("../images/w12.png");
+          background-size: contain;
+          @extend %tb;
+          float: left;
+          margin-left:0.18rem ;
+        }
+        .img4{
+          width: 0.6rem;
+          height: 0.6rem;
+          background: url("../images/w13.png");
+          background-size: contain;
+          @extend %tb;
+          float: left;
+          margin-left:0.18rem ;
+        }
+        .img5{
+          width: 0.6rem;
+          height: 0.6rem;
+          background: url("../images/w14.png");
+          background-size: contain;
+          @extend %tb;
+          float: left;
+          margin-left:0.18rem ;
+        }
+        h4 {
+          font-size: 0.24rem;
+          padding-top: 0.28rem;
+          padding-left: 0.18rem;
+          margin-left: 0.8rem;
+
+        }
+        h5 {
+          font-size: 0.18rem;
+          color: #A2A2A2;
+          padding-left: 0.18rem;
+          margin-left: 0.8rem;
+        }
+      }
+
+    }
+  }
+}
+//拨打search
+.searchb .seul .seli.active{
+  width:2.34rem;
+  height:0.75rem;
+  background: url("../images/w18.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.searchb{
+  width:100%;
+  height:0.75rem;
+  margin-top: 0.2rem;
+  padding:$padding;
+  position: relative;
+  background: #fff;
+  .seul{
+    .seli{
+      width:33.33%;
+      height:0.75rem;
+      float: left;
+      position: relative;
+      .sou{
+        width:0.33rem;
+        height:0.31rem;
+        background: url("../images/w15.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        @extend %tb;
+      }
+      .dian{
+        width:0.33rem;
+        height:0.31rem;
+        background: url("../images/w16.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        @extend %tb;
+        left:0.3rem;
+      }
+      .zai{
+        width:0.33rem;
+        height:0.31rem;
+        background: url("../images/w17.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        @extend %tb;
+        left:0.3rem;
+      }
+      h3{
+
+        line-height: 0.75rem;
+        color:black;
+        font-size: 0.24rem;
+        padding-left: 0.5rem;
+
+      }
+      h1{
+        text-align: center;
+        line-height: 0.75rem;
+        color:#fff;
+        font-size: 0.26rem;
+        padding-left: 0.25rem;
+
+      }
+      h2{
+        line-height: 0.75rem;
+        color:black;
+        font-size: 0.24rem;
+        padding-left: 0.8rem;
+      }
+    }
+  }
+}
+

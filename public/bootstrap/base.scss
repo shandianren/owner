@@ -1,0 +1,44 @@
+
+@mixin juxing($width,$height){
+    width: $width;
+    height: $height;
+    
+}
+@mixin cube($width){
+    width: $width;
+    height: $height;
+}
+@mixin circle($size){
+    @include cube($width);
+    border-radius: $size;
+}
+@mixin center{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+@mixin bt{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+@mixin lr{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+@function randomColor($b){
+    $red:random(255);
+    $green:random(255);
+    $blue:random(255);
+    @return rgba($red,$green,$blue,$b) ;
+}
+@mixin bg($b){
+    background: randomColor($b);
+}
+

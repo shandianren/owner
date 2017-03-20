@@ -1,0 +1,129 @@
+
+@mixin juxing($width,$height){
+    width: $width;
+    height: $height;
+    
+}
+@mixin cube($width){
+    width: $width;
+    height: $height;
+}
+@mixin circle($size){
+    @include cube($width);
+    border-radius: $size;
+}
+@mixin center{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+@mixin bt{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+@mixin lr{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+@function randomColor($b){
+    $red:random(255);
+    $green:random(255);
+    $blue:random(255);
+    @return rgba($red,$green,$blue,$b) ;
+}
+@mixin bg($b){
+    background: randomColor($b);
+}
+
+//轮播
+@keyframes rightin{
+     0%{
+        transform: translate3d(100%,0,0);
+     }
+     100%{
+        transform: translate3d(0,0,0);     
+     }
+   
+    
+}
+ @keyframes  rightout{
+     0%{
+        transform: translate3d(0,0,0);
+     }
+     100%{
+        transform: translate3d(-300px,0,0);
+     }
+    
+}
+ @keyframes leftin{
+      0%{
+        transform: translate3d(-300px,0,0);
+     }
+     100%{
+        transform: translate3d(0,0,0);     
+     }
+    
+}
+ @keyframes leftout{
+      0%{
+        transform: translate3d(0,0,0);
+     }
+     100%{
+        transform: translate3d(100%,0,0);     
+     }
+    
+}
+.bannerdiv .bannerul .ri{
+    display: block;
+    z-index: 10;
+    animation:rightin 0.8s ease both;
+}
+.bannerdiv .bannerul .ro{
+    display: block;
+    
+    animation:rightout 0.8s ease both;
+}
+.bannerdiv .bannerul .li{
+    
+    display: block;
+    animation:leftin 0.8s ease both;
+}
+.bannerdiv .bannerul .lo{
+    z-index: 10;
+    display: block;
+    animation:leftout 0.8s ease both;
+}
+
+
+$small:750px !default;
+$middle:980px !default;
+@minxin onsmall{
+    @media (min-width:$small){
+        @content
+    }
+}
+@minxin onmiddle{
+    @media (min-width:$middle){
+        @content
+    }
+}
+//.div{
+//  width: 100px;
+//  @include onsmall{
+//      width: 100px;
+//  }
+//}
+%cover{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}

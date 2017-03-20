@@ -1,0 +1,356 @@
+@charset "UTF-8";
+.header .logo, .header h1, .bread p, .conb .con .ul .dianji .li img, .conb .con .ul .dianji .li p {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.pag .pag-left .pag-nei, .pag-one .pag-one-nei {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+@keyframes rightin {
+  0% {
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes rightout {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes leftin {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes leftout {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+body {
+  background: #F5F6FA;
+}
+
+@font-face {
+  font-family: "iconfont";
+  src: url("fontclass/iconfont.woff");
+}
+
+.header {
+  width: 100%;
+  height: 0.9rem;
+  background: #0078E6;
+  position: relative;
+}
+
+.header .logo {
+  width: 0.7rem;
+  height: 0.67rem;
+  background-image: url("../images/w.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 2.7rem;
+}
+
+.header h1 {
+  font-size: 0.36rem;
+  color: #fff;
+  font-family: '微软雅黑';
+  left: 3.62rem;
+  line-height: 0.9rem;
+}
+
+.banner {
+  width: 100%;
+  height: 2.8rem;
+  background: url("../images/w1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  line-height: 2.8rem;
+  font-size: 0.3rem;
+  color: #fff;
+}
+
+.banner font {
+  font-size: 0.3rem;
+}
+
+.bread {
+  width: 100%;
+  height: 0.9rem;
+  background: #F5F6FA;
+  padding: 0rem 0.24rem 0rem 0.24rem;
+  position: relative;
+}
+
+.bread p {
+  line-height: 0.9rem;
+  font-size: 0.22rem;
+  color: #4D4B4B;
+}
+
+.bread a {
+  font-size: 0.22rem;
+  color: #4D4B4B;
+}
+
+.conb .con.ri {
+  display: block;
+  animation: rightin 0.8s ease both;
+}
+
+.conb .con.ro {
+  display: block;
+  animation: rightout 0.8s ease both;
+}
+
+.conb .con.li {
+  display: block;
+  animation: leftin 0.8s ease both;
+}
+
+.conb .con.lo {
+  display: block;
+  animation: leftout 0.8s ease both;
+}
+
+.conb {
+  position: relative;
+  width: 100%;
+  height: 10rem;
+  overflow: hidden;
+}
+
+.conb .con {
+  width: 100%;
+  padding: 0rem 0.24rem 0rem 0.24rem;
+  background: #fff;
+  display: none;
+  position: absolute;
+  top: 0;
+}
+
+.conb .con .ul {
+  width: 100%;
+  height: 3.37rem;
+  background: #fff;
+  border-bottom: 1px solid #f5f6fa;
+  position: relative;
+}
+
+.conb .con .ul h1 {
+  color: black;
+  font-size: 0.26rem;
+  padding-top: 0.2rem;
+}
+
+.conb .con .ul .img {
+  width: 1.92rem;
+  height: 1.6rem;
+  background: url("../images/w37.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 0.28rem;
+  margin-left: 0.13rem;
+  position: relative;
+}
+
+.conb .con .ul .img .img1 {
+  width: 1.94rem;
+  height: 1.44rem;
+  background: #c8c8c8;
+  position: absolute;
+  top: 0.11rem;
+  right: 0.11rem;
+  z-index: 10;
+}
+
+.conb .con .ul .p {
+  font-size: 0.24rem;
+  width: 4.64rem;
+  color: #494747;
+  position: absolute;
+  top: 1rem;
+  right: 0;
+}
+
+.conb .con .ul .dianji {
+  width: 100%;
+  height: 0.7rem;
+  border-top: 1px solid #f5f6fa;
+  margin-top: 0.2rem;
+}
+
+.conb .con .ul .dianji .li {
+  width: 33.33%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.conb .con .ul .dianji .li img {
+  position: absolute;
+  left: 0;
+}
+
+.conb .con .ul .dianji .li p {
+  color: #666666;
+  font-size: 0.2rem;
+  position: absolute;
+  line-height: 0.74rem;
+  left: 0.6rem;
+}
+
+.conb .con.active {
+  display: block;
+}
+
+#pag {
+  width: 100%;
+  background: #fff;
+}
+
+.pag {
+  height: 0.7rem;
+  background: #fff;
+  padding: 0.19rem 0rem 0.19rem 0.36rem;
+}
+
+.pag .pag-left {
+  width: 0.58rem;
+  height: 0.32rem;
+  border-radius: 0.5rem;
+  border: 1px solid #b3b3b3;
+  float: left;
+  position: relative;
+  font-family: 'iconfont';
+  text-align: center;
+  line-height: 0.32rem;
+}
+
+.pag .pag-left .pag-nei {
+  width: 0.45rem;
+  height: 0.2rem;
+  border-radius: 0.5rem;
+  border: 1px solid #000;
+}
+
+.pag-one {
+  width: 0.34rem;
+  height: 0.34rem;
+  border-radius: 50%;
+  border: 1px solid #b3b3b3;
+  float: left;
+  margin-left: 0.01rem;
+  position: relative;
+  text-align: center;
+  line-height: 0.34rem;
+  font-size: 0.14rem;
+}
+
+.pag-one .pag-one-nei {
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.pag-sheng {
+  width: 0.49rem;
+  height: 0.3rem;
+  float: left;
+  margin-left: 0.1rem;
+  position: relative;
+}
+
+.pag-sheng .pag-span {
+  width: 0.49rem;
+  height: 0.2rem;
+  position: relative;
+  top: -0.15rem;
+  left: 0;
+}
+
+#span {
+  font-size: 0.14rem;
+  position: relative;
+  top: -0.08rem;
+  left: 0.05rem;
+}
+
+#pag1 {
+  font-size: 0.14rem;
+  position: relative;
+  top: -0.08rem;
+  left: 0.05rem;
+}
+
+.pag-left.pag-right {
+  margin-left: 0.15rem;
+  font-family: 'iconfont';
+}
+
+.text {
+  height: 0.3rem;
+  float: left;
+  font-size: 0.14rem;
+  margin-left: 0.1rem;
+}
+
+.text span {
+  float: left;
+}
+
+#pag .pag .pag-one.active {
+  background: #01B5FF;
+  color: #fff;
+}
+
+#pag .pag .pag-one.active .pag-one-nei {
+  border: 1px solid #fff;
+}
+
+.bottom {
+  width: 5.6rem;
+  height: 0.8rem;
+  margin-top: 0.3rem;
+}
+
+.bottom p {
+  font-size: 0.2rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=wbaodao.css.map */

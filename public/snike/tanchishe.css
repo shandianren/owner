@@ -1,0 +1,33 @@
+body{
+	background-image: url("1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.box{
+	width: 400px;
+	height: 400px;
+	margin: 60px auto;
+	border:1px solid black;
+}
+.box div{
+	width: 18px;
+	height: 18px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	float: left;
+}
+.snake{
+	background: red;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+}
+.food{
+	width: 18px;
+	height: 18px;
+	background: blue;
+	/*background-image: url("2.jpg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	border-radius: 50%;
+}

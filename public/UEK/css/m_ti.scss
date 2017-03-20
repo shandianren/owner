@@ -1,0 +1,211 @@
+@import "_base";
+//头部开始
+body{
+  background: #f5f6fa;
+}
+.topbox{
+  width: 100%;
+  height: 0.9rem;
+  background: #0078e6;
+  position: relative;
+  .top{
+    width: 2.17rem;
+    height: 0.9rem;
+    @extend %lr;
+    background:url(../images/m_logo_03.png) no-repeat ;
+    background-size: cover;
+  }
+}
+//头部结束
+//banner开始
+.bannerbox{
+  width: 100%;
+  min-height: 0.2rem;
+  .banner{
+    height: 2.8rem;
+    background: url(../images/m_da_05.png) no-repeat;
+    background-size:cover;
+    line-height: 2.8rem;
+    text-align: center;
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #ffffff;
+    i{
+      font-size: 0.3rem;
+      color: #ef8b00;
+      font-weight: bold;
+    }
+    b{
+      color: #00b5f7;
+      font-weight: bold;
+      font-size: 0.3rem;
+    }
+  }
+}
+//banner结束
+//面包开始
+.mianbox{
+  width: 100%;
+  min-height: 0.2rem;
+  .mian{
+    padding: 0 0.24rem;
+    //background: black;
+    .zi{
+      min-width: 1.9rem;
+      height: 0.32rem;
+      //background: red;
+      position: relative;
+      padding: 0.36rem 0;
+      a{
+        font-size: 0.22rem;
+        color: #494747;
+        position: absolute;
+        top: 0.2rem;
+      }
+      .tu{
+        width: 0.08rem;
+        height: 0.21rem;
+        background: url(../images/m_xiaoyu_03.png) no-repeat;
+        position: absolute;
+        top: 0.26rem;
+        left: 0.66rem;
+        background-size: cover;
+      }
+      i{
+        font-size: 0.22rem;
+        color: #494747;
+        position: absolute;
+        top: 0.2rem;
+        left: 0.96rem;
+      }
+    }
+  }
+}
+//面包结束
+//列表开始
+.liebox{
+  width: 100%;
+  .lie{
+    padding: 0 0.24rem;
+    .da{
+      width: 100%;
+      height: 15rem;
+      position: relative;
+      background: #fff;
+      .yi{
+        width: 0.04rem;
+        height: 0.2rem;
+        position: absolute;
+        left: 0.19rem;
+        top: 0.23rem;
+      }
+      h5{
+        position: absolute;
+        top: 0.18rem;
+        left: 0.43rem;
+        font-size: 0.24rem;
+        color: #444444;
+        font-weight: bold;
+      }
+      .xian{
+        width: 6.4rem;
+        height: 0.11rem;
+        background: url(../images/m_re_11.png) no-repeat;
+        @extend %lr;
+        top:0.64rem;
+      }
+      .xian2{
+        width: 6.4rem;
+        height: 0.11rem;
+        background: url(../images/m_re_11.png) no-repeat;
+        @extend %lr;
+        top: 14.2rem;
+      }
+      .pp{
+        width: 100%;
+        //min-height: 14.62rem;
+        position: absolute;
+        top: 0.84rem;
+        //background: red;
+        .hei{
+          margin-top: 0.2rem;
+          width: 100%;
+          height: 3.62rem;
+          background: #474747;
+          margin-bottom:0.45rem ;
+        }
+        h1{
+          padding: 0.4rem 0.2rem 0 0.43rem;
+          font-size: 0.24rem;
+          color: #666666;
+        }
+        h2{
+          padding: 0 0.2rem 0 0.43rem;
+          font-size: 0.24rem;
+          color: #666666;
+        }
+      }
+      .fen{
+        width: 100%;
+        height: 0.65rem;
+        position: absolute;
+        bottom: 0;
+        b{
+          font-size: 0.24rem;
+          font-weight: bold;
+          color: #000;
+          float: left;
+          @extend %tb;
+          top:0.15rem;
+        }
+        ul{
+          @extend %tb;
+          top:0.15rem;
+          left: 1rem;
+          li{
+            width: 0.4rem;
+            height: 0.4rem;
+            float: left;
+            margin: 0 0.1rem;
+            img{
+              width: 0.4rem;
+              height: 0.4rem;
+            }
+          }
+        }
+        .you{
+          position: relative;
+          margin-right: 1.3rem;
+          right: 0;
+          width: 1.3rem;
+          height: 0.4rem;
+          //background: red;
+          img{
+            width: 0.4rem;
+            height: 0.4rem;
+          }
+        }
+      }
+    }
+  }
+}
+//列表结束
+//结尾开始
+.jiebox{
+  width: 100%;
+  min-height: 0.92rem;
+  position: relative;
+  .jie{
+    padding: 0 0.24rem;
+    .zi{
+      max-width: 5rem;
+      height: 0.58rem;
+      text-align: center;
+      @extend %center;
+      h5{
+        font-size: 0.2rem;
+      }
+    }
+  }
+}
+//结尾结束

@@ -1,0 +1,532 @@
+.f1box{
+	width: 100%;
+	height: 626px;
+	margin: 20px auto;
+}
+.f1{
+	width: 1190px;
+	height: 626px;
+	margin: 0 auto;
+}
+.f1 .top{
+	width: 1190px;
+	height: 32px;
+}
+.f1 .top .topleft{
+	width: 200px;
+	height: 20px;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	float: left;
+}
+.f1 .top .topright{
+	width: auto;
+	height: 16px;
+	float: right;
+	margin-bottom:0; 
+	
+}
+.f1 .top .topright ul{
+	width: auto;
+	height: 100%;
+}
+.top .topright ul li{
+	min-width: 77px;
+	height: 100%;
+	float: left;
+	margin-top: 15px;
+	position: relative;
+	cursor: pointer;
+}
+.top .topright ul li p{
+	height: 16px;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+}
+.top .topright ul li .firsttext{
+	font-weight: bold;
+}
+.top .topright ul li .sanjiao{
+	width: 0;
+	height: 0;
+	border-top: 0;
+	border-bottom: 10px solid #783e18;
+	border-left: 10px solid #fff;
+	border-right: 10px solid #fff;
+	position: absolute;
+	left: 28px;
+	top: 16px;
+	display: none;
+}
+ .f1box .f1 .top .topright ul li .firstsanjiao{
+ 	display: block;
+ }
+.f1 .bottom{
+	width: 1190px;
+	height: 594px;
+}
+.f1 .bottom .bottomleft{
+	width: 384px;
+	height: 594px;
+	float: left;
+}
+.f1 .bottom .bottomright{
+	width: 805px;
+	height: 585px;
+	float: left;
+	margin-top: 8px;
+	border-left: 1px solid #eee;
+	border-top: 1px solid #eee;
+	position: relative;
+}
+.f1 .bottom .bottomleft .bigleft{
+	display: block;
+	width: 384px;
+	padding-top: 26px;
+	height: 293px;
+	background: #ffe2ec;
+	position: relative;
+}
+ .bigleft .p1{
+	width: auto;
+	height: 20px;
+	margin-top: 26px;
+	margin-left: 20px;
+	color: #f15453;
+	font-size: 20px;
+}
+ .bigleft .p2{
+	width: auto;
+	height: 18px;
+	font-size: 18px;
+	color:  #f15453;
+	margin-left: 20px;
+	margin-top:12px;
+	float: left;
+}
+.f1 .bottom .bottomleft .bigleft .touming{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+	opacity: 0.5;
+	z-index: 12;
+}
+.f1 .bottom .bottomleft .bigleft .touming .transparent{
+	width: 128px;
+	height: 33px;
+	float: left;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.f1 .bottom .bottomleft .bigleft .touming .transparent img{
+	margin-left: 21px;
+	float: left;
+}
+.f1 .bottom .bottomleft .bigleft .touming .transparent p{
+	width: 55px;
+	height: 33px;
+	margin-left: 5px;
+	float: left;
+	font-size: 12px;
+	line-height: 22px;
+}
+ .bigleft .bigphoto{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.bigleft .smallphoto{
+	position: absolute;
+	top: 0;
+	right: 20px;
+}
+ .bigleft .texts{
+	width: auto;
+	height: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+.f1 .bottom .bottomleft .leftcenter{
+	width: 383px;
+	height: 127px;
+	border-left: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.f1 .bottom .bottomleft .leftcenter ul{
+	width: 63px;
+	height: 100px;
+	float: left;
+	margin-top: 10px;
+}
+.f1 .bottom .bottomleft .leftcenter ul li{
+	width: 64px;
+	height: 25px;
+	font-size: 12px;
+	line-height: 25px;
+}
+.f1 .bottom .bottomleft .leftcenter .first{
+	margin-left: 20px;
+}
+.f1 .bottom .bottomleft .leftcenter .second{
+	margin-right: 107px;
+}
+.f1 .bottom .bottomleft .leftcenter ul li a{
+	color: #000;
+}
+.f1 .bottom .bottomleft .leftcenter ul li a:hover{ 
+	color: red;
+	text-decoration: underline;
+}
+.f1 .bottom .bottomleft .left3{
+	display: block;
+	width: 383px;
+	height: 145px;
+	border-left: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	position: relative;
+}
+.f1 .bottom .bottomleft .left3 img{
+	position: absolute;
+	right: 10px;
+	top: 0;
+}
+.f1 .bottom .bottomleft .left3 .texts{
+	width: auto;
+	height: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 12;
+}
+.f1 .bottom .bottomleft .left3 .texts .title1{
+	width: auto;
+	height: 18px;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-left: 18px;
+	color: #000;
+}
+.f1 .bottom .bottomleft .left3 .texts .title2{
+	width: auto;
+	height: 14px;
+	font-size: 14px;
+	color: #f15453;
+	margin-left: 18px;
+	margin-top: 10px;
+}
+.f1 .bottom .bottomleft .left3 img{
+	position: absolute;
+	right: 5px;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+
+
+/*右边*/
+.f1 .bottom .bottomright .xuanbox{
+	width: 100%;
+	height: 100%;
+}
+.f1 .bottom .bottomright .xuanbox .xuanleft{
+	width: 408px;
+	height: 100%;
+	float: left;
+	
+}
+.f1 .bottom .bottomright .xuanbox .xuanright{
+	width: 396px;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.f1 .bottom .bottomright .xuanbox .xuanleft .littlelunbo{
+	width: 407px;
+	height: 291px;
+	border-bottom: 1px solid #eee;
+	border-right: 1px solid #eee;
+	position: relative;
+}
+.f1 .bottom .bottomright .xuanbox .xuanleft .bottomright2box .bottomright2{
+	display: block;
+	width: 203px;
+	height: 145px;
+	float: left;
+}
+.f1 .bottom .bottomright .xuanbox .xuanleft .bottomright2box .bottomright2 img{
+	width: 108px;
+	position: absolute;
+	right: 0;
+	top: 30px;
+}
+.f1 .bottom .bottomright .xuanbox .xuanleft .bottomright2{
+	display: block;
+	height: 145px;
+	width: 407px;
+	border-bottom: 1px solid #eee;
+	border-right: 1px solid #eee;
+	position: relative;
+}
+.f1 .bottom .bottomright .xuanbox .xuanright .photoli{
+	display: block;
+	width: 197px;
+	height: 291px;
+	float: left;
+	border-bottom: 1px solid #eee;
+	border-right: 1px solid #eee;
+	position: relative;
+}
+.f1 .bottom .bottomright .xuanbox .xuanright .photolibox .photoli{
+	display: block;
+	width: 395px;
+	height: 145px;
+}
+.f1 .bottom .bottomright .xuanbox .xuanright .photolibox .photoli img{
+	width: 145px;
+	position: absolute;
+	top: 0;
+	left: 230px;
+}
+ .f1 .bottom .bottomright .xuanbox .xuanright .photoli img{
+
+	left: 5px;
+} 
+.f1 .bottom .bottomright .xuanbox .xuanleft .littlelunbo .bigleft{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+.f1 .bottom .bottomright .xuanbox .xuanleft .littlelunbo .leftbtn{
+	position: absolute;
+	left: 0;
+	top:115px;
+	display: none;
+	cursor: pointer;
+}
+.f1 .bottom .bottomright .xuanbox .xuanleft .littlelunbo .rightbtn{
+	position: absolute;
+	right: 0;
+	top: 115px;
+	display: none;
+}
+.f1 .bottom .bottomright .xuanbox .xuanleft .littlelunbo .btns{
+	width: 45px;
+	height: 20px;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	border-radius: 10px;
+	background: #fff;
+	opacity: 0.6;
+}
+.f1 .bottom .bottomright .xuanbox .xuanleft .littlelunbo .btns .btnli{
+	width: 10px;
+	height: 10px;
+	float: left;
+	border-radius: 50%;
+	margin-right: 5px;
+	background: #000;
+	margin-top: 5px;
+}
+.f1 .bottom .bottomright .xuanbox  .texts{
+	width: auto;
+	height: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 12; 
+}
+.f1 .bottom .bottomright .xuanbox .texts .title1{
+	width: auto;
+	height: 18px;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-left: 18px;
+	color: #000;
+}
+.f1 .bottom .bottomright .xuanbox .texts .title2{
+	width: auto;
+	height: 14px;
+	font-size: 14px;
+	color: #f15453;
+	margin-left: 18px;
+	margin-top: 10px;
+}
+.f1 .bottom .bottomright .xuanbox .bottomright2  img{
+	position: absolute;
+	right:10px;
+	top: 0;
+}
+.f1 .bottom .bottomright .photoli img{
+	position: absolute;
+	left:20px;
+	bottom:0; 
+}
+
+
+/*选项卡*/
+.f1 .bottom .bottomright .xuanbox{
+	width: 805px;
+	height: 585px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.f1box .f1 .bottom .bottomright .firstxuanbox{
+	display: block;
+}
+.f1 .bottom .bottomright .xuanbox ul li{
+	width: 200px;
+	height: 291px;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	float: left;
+	cursor: pointer;
+}
+.f3box .f1 .bottom .bottomright .xuanbox ul li{
+	height: 217px;
+}
+.f3box .f1 .bottom .bottomright .xuanbox ul li img{
+	width: 120px;
+	margin-left: 40px;
+}
+.f3box .f1 .bottom .bottomright .xuanbox ul li a{
+	margin-top: 5px;
+}
+.f3box .f1 .bottom .bottomright .xuanbox ul li p{
+	height: 30px;
+	line-height: 30px;
+}
+.f1 .bottom .bottomright .xuanbox ul li img{
+	width: 180px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.f1 .bottom .bottomright .xuanbox ul li a{
+	display: block;
+	width: 180px;
+	height: auto;
+	margin-top:10px;
+	font-size: 12px;
+	color: #666;
+	margin-left: 10px;
+}
+.f1 .bottom .bottomright .xuanbox ul li a:hover{
+	color: #F60;
+	text-decoration: underline;
+}
+.f1 .bottom .bottomright .xuanbox ul li p{
+	width: auto;
+	height: 36px;
+	color: #e12228;
+	font-size: 20px;
+	line-height: 36px;
+	margin-left: 10px;
+	font-family: "STXihei",tahoma;
+}
+  /*三楼 */
+  .f3box{
+  	width: 100%;
+  	height: 480px;
+  	overflow: hidden;
+  	margin: 20px auto;
+  }
+  .f3box .f1 .bottom .bottomright .xuanbox .xuanleft .bottomright2{
+  	width: 203px;
+  	height: 145px;
+  	float: left;
+  	border-bottom: 1px solid #eee;
+  	border-right: 1px solid #eee;
+  }
+  .f3box .f1 .bottom .bottomright .xuanbox .xuanleft .bottomright2 img{
+  	width: 108px;
+  	position: absolute;
+  	right: 0;
+  	top: 30px;
+  }
+  .f3box .f1 .bottom .bottomright .xuanbox .xuanright .short{
+  	height: 145px;
+  }
+  .f3box .f1 .bottom .bottomright .xuanbox .xuanright .short img{
+  	position: absolute;
+  	left: 80px;
+  	bottom: 0;
+  }
+
+ /*各楼层的大图背景颜色*/
+ .f2box .f1 .bottom .bottomleft .bigleft{
+ 	background: #b2fdfc;
+ }
+ .f3box .f1 .bottom .bottomleft .bigleft{
+ 	background: #fcefa7;
+ }
+ .f4box .f1 .bottom .bottomleft .bigleft{
+ 	background: #d4e9ff;
+ }
+ .f5box .f1 .bottom .bottomleft .bigleft{
+ 	background: #c1faf0;
+ }
+ .f6box .f1 .bottom .bottomleft .bigleft{
+ 	background: #dce0ff;
+ }
+ .f7box .f1 .bottom .bottomleft .bigleft{
+ 	background: #ffd3cd;
+ }
+ .f8box .f1 .bottom .bottomleft .bigleft{
+ 	background: #d4f2ce;
+ }
+ .f9box .f1 .bottom .bottomleft .bigleft{
+ 	background: #ffd9e4;
+ }
+
+ .f10box .f1 .bottom .bottomleft .bigleft{
+ 	background: #e0f0c8;
+ }
+ .f11box .f1 .bottom .bottomleft .bigleft{
+ 	background: #d4f2ce;
+ }
+ /*各楼层的大图字体颜色*/
+ .f2box .f1 .bottom .bottomleft .bigleft .texts p{
+ 	color: #03c4db;
+ }
+ .f3box .f1 .bottom .bottomleft .bigleft .texts p{
+ 	color: #fd9b22;
+ }
+ .f4box .f1 .bottom .bottomleft .bigleft .texts p{
+ 	color: #3892f0;
+ }
+ .f5box .f1 .bottom .bottomleft .bigleft .texts p{
+ 	color: #19c8a9;
+ }
+ .f6box .f1 .bottom .bottomleft .bigleft .texts p{
+ 	color: #5a67c8;
+ }
+ .f7box .f1 .bottom .bottomleft .bigleft .texts p{
+ 	color: #ea624f;
+ }
+ .f8box .f1 .bottom .bottomleft .bigleft .texts p{
+ 	color: #56c41e;
+ }
+ .f9box .f1 .bottom .bottomleft .bigleft .texts p{
+ 	color: #ff477c;
+ }
+ .f10box .f1 .bottom .bottomleft .bigleft .texts p{
+ 	color: #6bb611;
+ }
+ .f11box .f1 .bottom .bottomleft .bigleft .texts p{
+ 	color: #56c41e;
+ }
+

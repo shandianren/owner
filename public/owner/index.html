@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<head>
+    <title>个人网站</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <meta name="description" content="FlexyCodes - FlexyCard vCard Template. Creating my personal page!"/>
+    <link rel="stylesheet" type="text/css" href="./owner/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./owner/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./owner/css/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./owner/css/jquery.mCustomScrollbar.css"/>
+    <link rel="stylesheet" type="text/css" href="./owner/css/main.css"/>
+</head>
+<body>
+<!-- 等待 -->
+<div id="preloader">
+    <div id="spinner"></div>
+</div>
+
+<!-- 大背景 -->
+<ul class="cb-slideshow" id="cb_slideshow" style="display:block">
+    <li><span>Image 01</span>
+
+        <div></div>
+    </li>
+    <li><span>Image 02</span>
+
+        <div></div>
+    </li>
+    <li><span>Image 03</span>
+
+        <div></div>
+    </li>
+    <li><span>Image 04</span>
+
+        <div></div>
+    </li>
+    <li><span>Image 05</span>
+
+        <div></div>
+    </li>
+    <li><span>Image 06</span>
+
+        <div></div>
+    </li>
+</ul>
+<div class="wrapper">
+    <!--- 内容 -->
+    <section class="tab-content">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div class="row">
+
+                        <div class="col-md-3 widget-profil">
+                            <div class="row">
+                                <!--个人照片-->
+                                <div class="col-lg-12 col-md-12 col-sm-3 col-xs-12 ">
+                                    <div class="image-holder one" id="pic_prof_1" style="display:block">
+
+                                        <img class="head-image front circle" src="./owner/images/me/me.jpg" width="150"
+                                             height="150" alt=""/>
+
+                                    </div>
+
+                                    <!-- style for simple image profile -->
+                                    <div class="circle-img" id="pic_prof_2" style="display:none"></div>
+
+
+                                </div>
+
+                                <div class="col-lg-12 col-md-12 col-sm-9 col-xs-12">
+
+
+                                    <!-- Profile info -->
+                                    <div id="profile_info">
+                                        <h1 id="name" class="transition-02"> 王张强</h1>
+                                        <h4 class="line">全栈工程师</h4>
+                                        <h6><span class="fa fa-map-marker"></span> 山西·太原</h6>
+                                    </div>
+                                    <!-- End Profile info -->
+
+
+                                    <!-- Profile Description -->
+                                    <div id="profile_desc">
+                                        <p>
+                                            此时不拼更待何时
+                                        </p>
+
+                                    </div>
+                                    <!-- End Profile Description -->
+
+
+                                    <!-- Name -->
+                                    <div id="profile_social">
+                                        <h6>我的社交</h6>
+
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <a href="#"><i class="fa fa fa-dribbble"></i></a>
+                                        <a href="#"><i class="fa fa-foursquare"></i></a>
+
+                                        <div class="clear"></div>
+                                    </div>
+                                    <!-- End Name -->
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-9 flexy_content" style="padding-left: 0;padding-right: 0;">
+
+                            <div id="verticalTab">
+                                <!--选项卡列表-->
+                                <ul class="resp-tabs-list">
+                                    <li class="tabs-profile hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a profile"
+                                        data-tab-name="profile">
+                                        <span class="tite-list">profile</span>
+                                        <i class="fa fa-user icon_menu icon_menu_active"></i>
+                                    </li>
+
+                                    <li class="tabs-resume hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a"
+                                        data-tab-name="resume">
+                                        <span class="tite-list">resume</span>
+                                        <i class="fa fa-tasks icon_menu"></i>
+                                    </li>
+
+                                    <li class="tabs-portfolio hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a"
+                                        data-tab-name="portfolio">
+                                        <span class="tite-list">portfolio</span>
+                                        <i class="fa fa-briefcase icon_menu"></i>
+                                    </li>
+
+                                    <li class="tabs-contact hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a"
+                                        data-tab-name="contact" style="margin-bottom: 48px !important;">
+                                        <span class="tite-list">contact</span>
+                                        <i class="fa fa-envelope icon_menu"></i>
+                                    </li>
+                                </ul>
+                               <!--列表内容-->
+                                <div class="resp-tabs-container">
+                                    <!-- 关于我 -->
+                                    <div id="profile" class="content_2">
+                                        <!-- .title -->
+                                        <h1 class="h-bloc">简介-关于我</h1>
+
+                                        <div class="row top-p">
+                                            <div class="col-md-6 profile-l">
+
+                                                <!--About me-->
+                                                <div class="title_content">
+                                                    <div class="text_content">王张强</div>
+                                                    <div class="clear"></div>
+                                                </div>
+
+                                                <ul class="about">
+
+                                                    <li>
+                                                        <i class="glyphicon glyphicon-user"></i>
+                                                        <label>姓名</label>
+                                                        <span class="value">王张强</span>
+
+                                                        <div class="clear"></div>
+                                                    </li>
+
+                                                    <li>
+                                                        <i class="glyphicon glyphicon-calendar"></i>
+                                                        <label>出生年月</label>
+                                                        <span class="value">May 5, 1995</span>
+
+                                                        <div class="clear"></div>
+                                                    </li>
+
+                                                    <li>
+                                                        <i class="glyphicon glyphicon-map-marker"></i>
+                                                        <label>所在地</label>
+                                                        <span class="value">山西·太原</span>
+
+                                                        <div class="clear"></div>
+                                                    </li>
+
+                                                    <li>
+                                                        <i class="glyphicon glyphicon-envelope"></i>
+                                                        <label>电子邮件</label>
+                                                        <span class="value">13994264865@139.com</span>
+
+                                                        <div class="clear"></div>
+                                                    </li>
+
+                                                    <li>
+                                                        <i class="glyphicon glyphicon-phone"></i>
+                                                        <label>电话</label>
+                                                        <span class="value">13994264865</span>
+
+                                                        <div class="clear"></div>
+                                                    </li>
+
+                                                    <li>
+                                                        <i class="glyphicon glyphicon-globe"></i>
+                                                        <label>网站</label>
+                                                        <span class="value"><a href="https://ownerweb.duapp.com"
+                                                                               target="_blank">https://ownerweb.duapp.com</a></span>
+
+                                                        <div class="clear"></div>
+                                                    </li>
+
+                                                </ul>
+
+
+                                                <p style="margin-bottom:20px">
+                                                    <i class="fa fa-quote-left"></i>
+                                                    年轻就是资本。少壮不努力,老大徒伤悲,
+                                                </p>
+
+                                                <p style="margin-bottom:20px">
+                                                    <i class="fa fa-quote-left"></i>
+                                                   年轻就是动力, 向着目标奋斗,前进！！！！！
+                                                </p>
+
+                                                <p style="margin-bottom:20px">
+                                                    <i class="fa fa-quote-left"></i>
+                                                    年轻就是本钱, 美好的生活正在想你招手！！！！！
+                                                </p>
+
+                                            </div>
+                                            <!-- End left-wrap -->
+
+                                            <div class="col-md-6 profile-r">
+
+                                                <div class="cycle-slideshow">
+                                                    <img src="./owner/images/img-profile/about_1.jpg" alt=""/>
+                                                    <img src="./owner/images/img-profile/about_2.png" alt=""/>
+                                                    <img src="./owner/images/img-profile/about_3.png" alt=""/>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="clear"></div>
+
+
+                                        <div class="row" id="services">
+                                            <div class="col-md-12">
+                                                <div class="title_content">
+                                                    <div class="text_content">我会做的</div>
+                                                    <div class="clear"></div>
+                                                </div>
+
+
+                                                <div class="col-md-4 pack-service">
+                                                    <div class="service">
+                                                        <div class="service-icon"><i class="fa fa-tag"></i></div>
+                                                        <div class="service-detail">
+                                                            <h6>UI</h6>
+                                                            <p>UI</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 pack-service">
+                                                    <div class="service">
+                                                        <div class="service-icon"><i class="fa fa-cogs"></i></div>
+                                                        <div class="service-detail">
+                                                            <h6>网页设计</h6>
+
+                                                            <p>网页design</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 pack-service">
+                                                    <div class="service">
+                                                        <div class="service-icon"><i class="fa fa-arrows-alt"></i></div>
+                                                        <div class="service-detail">
+                                                            <h6>后台</h6>
+
+                                                            <p>后台</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- End Services -->
+                                        <div class="copyrights">Collect from <a href="#"></a></div>
+
+                                        <div class="clear"></div>
+                                        <div class="border-list"></div>
+
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="bottom-p">
+                                                    <div class="title_content">
+                                                        <div class="text_content">我的观点和想法</div>
+                                                        <div class="clear"></div>
+                                                    </div>
+
+                                                    <div class="panel-group" id="accordion">
+                                                        <div class="panel panel-default">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion"
+                                                                       href="#collapseOne" class="collapse_tabs">
+                                                                        Making Money
+                                                                        <i class="glyphicon glyphicon-chevron-up"
+                                                                           style="float: right;font-size: 13px;"></i>
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseOne" class="panel-collapse collapse in">
+                                                                <div class="panel-body">
+                                                                    <i class="fa fa-quote-left"></i> 赚钱就是我唯一的想法
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel panel-default">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion"
+                                                                       href="#collapseTwo" class="collapse_tabs">
+                                                                        Easy to Customize
+                                                                        <i class="glyphicon glyphicon-chevron-down"
+                                                                           style="float: right;font-size: 13px;"></i>
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseTwo" class="panel-collapse collapse">
+                                                                <div class="panel-body">
+                                                                    <i class="fa fa-quote-left"></i> 全职工作
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!--<div class="panel panel-default">-->
+                                                        <!--<div class="panel-heading">-->
+                                                        <!--<h4 class="panel-title">-->
+                                                        <!--<a data-toggle="collapse" data-parent="#accordion"-->
+                                                        <!--href="#collapseThree" class="collapse_tabs">-->
+                                                        <!--Moving Let Us Help-->
+                                                        <!--<i class="glyphicon glyphicon-chevron-down"-->
+                                                        <!--style="float: right;font-size: 13px;"></i>-->
+                                                        <!--</a>-->
+                                                        <!--</h4>-->
+                                                        <!--</div>-->
+                                                        <!--<div id="collapseThree" class="panel-collapse collapse">-->
+                                                        <!--<div class="panel-body">-->
+                                                        <!--<i class="fa fa-quote-left"></i> 移动的时代真是太快的logo-->
+                                                        <!--</div>-->
+                                                        <!--</div>-->
+                                                        <!--</div>-->
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <!--个人信息-->
+                                    <div id="resume" class="content_2">
+                                        <!-- .title -->
+                                        <h1 class="h-bloc">个人信息</h1>
+
+                                        <div class="row">
+
+                                            <!-- .resume-right -->
+                                            <div class="col-md-6">
+
+                                                <!-- .title_content -->
+                                                <div class="title_content" style="float: none;">
+                                                    <div class="text_content">掌握技能</div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                                <!-- /.title_content -->
+
+                                                <div class="skills">
+                                                    <!-- .skillbar -->
+                                                    <div class="skillbar clearfix" data-percent="95%">
+                                                        <div class="skillbar-title"><span>HTML5</span></div>
+                                                        <div class="skillbar-bar"></div>
+                                                        <div class="skill-bar-percent">95%</div>
+                                                    </div>
+
+                                                    <!-- /.skillbar -->
+
+                                                    <!-- .skillbar -->
+                                                    <div class="skillbar clearfix" data-percent="95%">
+                                                        <div class="skillbar-title"><span>CSS3</span></div>
+                                                        <div class="skillbar-bar"></div>
+                                                        <div class="skill-bar-percent">95%</div>
+                                                    </div>
+
+                                                    <!-- /.skillbar -->
+
+                                                    <!-- .skillbar -->
+                                                    <div class="skillbar clearfix" data-percent="94%">
+                                                        <div class="skillbar-title"><span>Jquery.js</span></div>
+                                                        <div class="skillbar-bar"></div>
+                                                        <div class="skill-bar-percent">94%</div>
+                                                    </div>
+
+                                                    <!-- /.skillbar -->
+
+                                                    <!-- .skillbar -->
+                                                    <div class="skillbar clearfix" data-percent="94%">
+                                                        <div class="skillbar-title"><span>Angular.js</span></div>
+                                                        <div class="skillbar-bar"></div>
+                                                        <div class="skill-bar-percent">94%</div>
+                                                    </div>
+
+                                                    <!-- /.skillbar -->
+
+                                                    <!-- .skillbar -->
+                                                    <div class="skillbar clearfix" data-percent="90%">
+                                                        <div class="skillbar-title"><span>React.js</span></div>
+                                                        <div class="skillbar-bar"></div>
+                                                        <div class="skill-bar-percent">90%</div>
+                                                    </div>
+
+                                                    <!-- /.skillbar -->
+
+                                                    <!-- .skillbar -->
+                                                    <div class="skillbar clearfix" data-percent="90%">
+                                                        <div class="skillbar-title"><span>PHP</span></div>
+                                                        <div class="skillbar-bar"></div>
+                                                        <div class="skill-bar-percent">80%</div>
+                                                    </div>
+
+                                                    <!-- /.skillbar -->
+
+                                                    <!-- .skillbar -->
+                                                    <div class="skillbar clearfix" data-percent="93%">
+                                                        <div class="skillbar-title"><span>Node.js</span></div>
+                                                        <div class="skillbar-bar"></div>
+                                                        <div class="skill-bar-percent">93%</div>
+                                                    </div>
+
+                                                    <!-- /.skillbar -->
+
+                                                </div>
+                                                <!-- .title_content -->
+                                                <div class="title_content" style="float: none;">
+                                                    <div class="text_content">个人爱好</div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                                <!-- /.title_content -->
+
+                                                <div class="skills">
+                                                    <!-- .skillbar -->
+                                                    <div class="skillbar clearfix" data-percent="100%">
+                                                        <div class="skillbar-title"><span>音乐</span></div>
+                                                        <div class="skillbar-bar"></div>
+                                                        <div class="skill-bar-percent">100%</div>
+                                                    </div>
+                                                    <!-- /.skillbar -->
+
+                                                    <!-- .skillbar -->
+                                                    <div class="skillbar clearfix " data-percent="95%">
+                                                        <div class="skillbar-title"><span>运动</span></div>
+                                                        <div class="skillbar-bar"></div>
+                                                        <div class="skill-bar-percent">95%</div>
+                                                    </div>
+                                                    <!-- /.skillbar -->
+
+                                                    <!-- .skillbar -->
+                                                    <div class="skillbar clearfix " data-percent="85%">
+                                                        <div class="skillbar-title"><span>阅读</span></div>
+                                                        <div class="skillbar-bar"></div>
+                                                        <div class="skill-bar-percent">85%</div>
+                                                    </div>
+                                                    <!-- /.skillbar -->
+
+                                                </div>
+
+                                                <!-- .title_content -->
+                                                <div class="title_content" style="float: none;">
+                                                    <div class="text_content">语言技能</div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                                <!-- /.title_content -->
+
+                                                <div class="skills">
+                                                    <!-- .skillbar -->
+                                                    <div class="skillbar clearfix" data-percent="90%">
+                                                        <div class="skillbar-title"><span>汉语</span></div>
+                                                        <div class="skillbar-bar"></div>
+                                                        <div class="skill-bar-percent">100%</div>
+                                                    </div>
+                                                    <!-- /.skillbar -->
+
+                                                    <!-- .skillbar -->
+                                                    <div class="skillbar clearfix " data-percent="80%">
+                                                        <div class="skillbar-title"><span>英语</span></div>
+                                                        <div class="skillbar-bar"></div>
+                                                        <div class="skill-bar-percent">80%</div>
+                                                    </div>
+                                                    <!-- /.skillbar -->
+
+                                                </div>
+
+                                            </div>
+                                            <!-- /.resume-right -->
+
+
+                                            <!-- .resume-left -->
+                                            <div class="col-md-6 resume-left">
+                                                <!-- .title_content -->
+                                                <!--<div class="title_content" style="margin-bottom:5px">-->
+                                                <!--<div class="text_content">历史工作</div>-->
+                                                <!--<div class="clear"></div>-->
+                                                <!--</div>-->
+                                                <!--&lt;!&ndash; /.title_content &ndash;&gt;-->
+
+                                                <!--&lt;!&ndash; .attributes &ndash;&gt;-->
+                                                <!--<ul class="attributes">-->
+                                                <!--<li class="first">-->
+                                                <!--<h5>职位<span class="duration"><i-->
+                                                <!--class="fa fa-calendar color"></i> 开始 - 结束</span></h5>-->
+                                                <!--<h6><span class="fa fa-briefcase"></span> 公司名字</h6>-->
+
+                                                <!--<p>工作内容</p>-->
+                                                <!--</li>-->
+                                                <!--<li>-->
+                                                <!--<h5>职位<span class="duration"><i-->
+                                                <!--class="fa fa-calendar color"></i> 开始 - 结束</span></h5>-->
+                                                <!--<h6><span class="fa fa-briefcase"></span> 公司名字</h6>-->
+
+                                                <!--<p>工作内容</p>-->
+                                                <!--</li>-->
+
+                                                <!--</ul>-->
+                                                <!--&lt;!&ndash; /.attributes &ndash;&gt;-->
+                                                <br>
+
+                                                <!-- .title_content -->
+                                                <div class="title_content">
+                                                    <div class="text_content">教育经历</div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                                <!-- /.title_content -->
+
+                                                <!-- .attributes -->
+                                                <ul class="attributes">
+                                                    <li class="first">
+                                                        <h5>大专<span class="duration"><i
+                                                                class="fa fa-calendar color"></i> 2014.10--2017.6</span>
+                                                        </h5>
+                                                        <h6><span class="fa fa-book"></span> 山西能源学院</h6>
+
+                                                        <p>1.山西能源学院（Shanxi Institute of
+                                                            Energy）简称”山能“，是国家教育部批准，山西省人民政府举办，山西省教育厅管理的一所应用型普通本科学校。学院以煤炭、电力、新能源类专业为主体，主要培养基础理论扎实，专业技能突出，实践动手能力强，直接为能源企业服务，为区域经济社会发展服务的工程技术人才和管理人才。<br>2.学院位于山西省高校园区。，其前身为山西煤炭管理干部学院[2]
+                                                            ，始建于1984年。2013年，山西省人民政府决定筹建山西能源学院，建设一所“以工为主、能源见长、特色鲜明、规模适当”的能源类应用技术型普通本科学校<br>3.2016年3月22日，教育部正式致函山西省人民政府，正式同意设立”山西能源学院“。首批设置本科专业6个，即采矿工程、化学工程与工艺、安全工程、机械设计制造及其自动化、电气工程及其自动化、资源勘查工程。
+                                                        </p>
+                                                    </li>
+                                                    <!--<li>-->
+                                                    <!--<h5>学历<span class="duration"><i-->
+                                                    <!--class="fa fa-calendar color"></i> 开始 - 结束</span></h5>-->
+                                                    <!--<h6><span class="fa fa-book"></span> 学校名称</h6>-->
+
+                                                    <!--<p>学校简介</p>-->
+                                                    <!--</li>-->
+                                                </ul>
+                                                <!-- /.attributes -->
+                                                <br>
+
+
+                                                <!-- .title_content -->
+                                                <!--<div class="title_content">-->
+                                                <!--<div class="text_content">获奖事件</div>-->
+                                                <!--<div class="clear"></div>-->
+                                                <!--</div>-->
+                                                <!--&lt;!&ndash; /.title_content &ndash;&gt;-->
+
+                                                <!--&lt;!&ndash; .attributes &ndash;&gt;-->
+                                                <!--<ul class="attributes">-->
+                                                <!--<li class="first">-->
+                                                <!--<h5>获奖的名称 <span class="duration"><i-->
+                                                <!--class="fa fa-calendar color"></i> 开始 - 结束</span></h5>-->
+                                                <!--<h6><span class="fa fa-trophy"></span> 学院的名称</h6>-->
+
+                                                <!--<p>对本项奖的简介</p>-->
+                                                <!--</li>-->
+                                                <!--<li>-->
+                                                <!--<h5>获奖的名称 <span class="duration"><i-->
+                                                <!--class="fa fa-calendar color"></i> 开始 - 结束</span></h5>-->
+                                                <!--<h6><span class="fa fa-trophy"></span> 学院的名称</h6>-->
+
+                                                <!--<p>对本项奖的简介</p>-->
+                                                <!--</li>-->
+
+                                                <!--</ul>-->
+                                                <!-- /.attributes -->
+                                                <br>
+
+                                            </div>
+                                            <!-- /.resume-left -->
+                                        </div>
+
+                                        <div style="clear: both"></div>
+
+
+                                        <!-- client reference -->
+                                        <!--<div class="row">-->
+                                        <!--<div class="col-md-12">-->
+
+                                        <!--<div class="reference clearfix">-->
+
+                                        <!--&lt;!&ndash; .title_content &ndash;&gt;-->
+                                        <!--<div class="title_content" style="margin-bottom:5px">-->
+                                        <!--<div class="text_content">TA们的评价</div>-->
+                                        <!--<div class="clear"></div>-->
+                                        <!--</div>-->
+                                        <!--&lt;!&ndash; /.title_content &ndash;&gt;-->
+
+
+                                        <!--<ul>-->
+                                        <!--<li class="clearfix">-->
+                                        <!--<img src="http://placehold.it/100x100" class="img_reference"-->
+                                        <!--width="100" height="100" alt="">-->
+
+                                        <!--<p>评价的内容，不会就让爸爸、姐姐、帮你想想</p>-->
+                                        <!--<span>姓名，职位</span>-->
+                                        <!--</li>-->
+                                        <!--<li class="clearfix">-->
+                                        <!--<img src="http://placehold.it/100x100" class="img_reference"-->
+                                        <!--width="100" height="100" alt="">-->
+
+                                        <!--<p>评价的内容，不会就让爸爸、姐姐、帮你想想</p>-->
+                                        <!--<span>姓名，职位</span>-->
+                                        <!--</li>-->
+                                        <!--<li class="clearfix">-->
+                                        <!--<img src="http://placehold.it/100x100" class="img_reference"-->
+                                        <!--width="100" height="100" alt="">-->
+
+                                        <!--<p>评价的内容，不会就让爸爸、姐姐、帮你想想</p>-->
+                                        <!--<span>姓名，职位</span>-->
+                                        <!--</li>-->
+                                        <!--</ul>-->
+                                        <!--</div>-->
+                                        <!--</div>-->
+
+
+                                        <!--<div style="clear: both"></div>-->
+                                        <!--</div>-->
+
+                                    </div>
+                                    <!--个人作品-->
+                                    <div id="portfolio" class="content_2">
+
+                                        <!-- .title -->
+                                        <h1 class="h-bloc">我的作品展示</h1>
+
+                                        <!-- .container-portfolio -->
+                                        <div class="container-portfolio">
+
+                                            <!-- 导航-->
+                                            <ul id="filters" class="clearfix">
+                                                <li><span class="filter active"
+                                                          data-filter="catWeb catGraphic catMotion logo">全部</span></li>
+                                                <li><span class="filter" data-filter="catWeb">网页设计</span></li>
+                                                <li><span class="filter" data-filter="catGraphic">手机APP</span></li>
+                                                <li><span class="filter" data-filter="catMotion">网站</span></li>
+                                                <li><span class="filter" data-filter="game">游戏/程序</span></li>
+                                            </ul>
+                                            <!-- 导航内容 -->
+                                            <div id="portfoliolist">
+
+                                                <!-- .portfolio -->
+                                                <div class="portfolio catMotion" data-cat="catMotion">
+                                                    <!-- .portfolio-wrapper -->
+                                                    <div class="portfolio-wrapper">
+                                                        <a href=""
+                                                        >
+
+                                                            <img src="./owner/images/portfolio/2.jpg" alt="Visual Infography"/>
+
+                                                            <div class="label">
+                                                                <div class="label-text">
+                                                                    <a class="text-title">艺弘缘</a>
+                                                                    <pre class="text-category aa">项目描述:这是关于文化的网站</pre>
+                                                                    <pre class="text-category bb">项目简介:1.利用react组件实现页面的精确布局，在node环境下运行。2.利用antd搭建后台页面，3.利用express里面的路由将整个项目连接</pre>
+                                                                    <pre><a href="http://115.28.25.198:8002/" target="_blank">查看</a></pre>
+                                                                </div>
+                                                                <div class="label-bg"></div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <!-- /.portfolio-wrapper -->
+                                                </div>
+                                                <!-- /.portfolio -->
+
+                                                <!-- .portfolio -->
+                                                <div class="portfolio catWeb" data-cat="catWeb">
+                                                    <!-- .portfolio-wrapper -->
+                                                    <div class="portfolio-wrapper">
+
+                                                            <img src="./owner/images/portfolio/3.jpg" alt="Sonor's Design"/>
+
+                                                            <div class="label">
+                                                                <div class="label-text">
+                                                                    <a class="text-title">苹果页面</a>
+                                                                    <pre class="text-category aa">项目描述:苹果首页</pre>
+                                                                    <pre class="text-category bb">项目简介:1.利用了栅格系统写的响应式界面2.利用jquery.js实现项目的事件的行为</pre>
+                                                                    <pre><a href="../apple/apple.html" target="_blank">查看</a></pre>
+
+                                                                </div>
+                                                                <div class="label-bg"></div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- /.portfolio-wrapper -->
+                                                </div>
+                                                <!-- /.portfolio -->
+
+                                                <!-- .portfolio -->
+                                                <div class="portfolio catGraphic" data-cat="catGraphic">
+                                                    <!-- .portfolio-wrapper -->
+                                                    <div class="portfolio-wrapper">
+                                                        <a href="">
+                                                            <img src="./owner/images/portfolio/4.jpg" alt="Typography Company"/>
+
+                                                            <div class="label">
+                                                                <div class="label-text">
+                                                                    <a class="text-title">嗨酷音乐</a>
+                                                                    <pre class="text-category aa">项目描述:嗨酷音乐</pre>
+                                                                    <pre class="text-category bb">项目简介:1.这个应用用到了sass处理器来写样式，利用jquery写一些行为.2.利用rem的处理方式来解决不同移动设备的适配问题</pre>
+                                                                    <pre><a href="../haiku/index.html" target="_blank">查看</a></pre>
+                                                                </div>
+                                                                <div class="label-bg"></div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <!-- /.portfolio-wrapper -->
+                                                </div>
+                                                <!-- /.portfolio -->
+
+                                                <!-- .portfolio -->
+                                                <div class="portfolio catWeb" data-cat="catWeb">
+                                                    <!-- .portfolio-wrapper -->
+                                                    <div class="portfolio-wrapper">
+                                                            <img src="./owner/images/portfolio/5.jpg" alt="Weatherette"/>
+
+                                                            <div class="label">
+                                                                <div class="label-text">
+                                                                    <a class="text-title">bootstrap</a>
+                                                                    <pre class="text-category aa">项目描述:这是一个纯响应式的页面</pre>
+                                                                    <pre class="text-category bb">项目简介:1.利用自己写的12栅格系统实现页面的响应式</pre>
+                                                                    <pre><a href="../bootstrap/bootstrap.html" target="_blank">查看</a></pre>
+
+                                                                </div>
+                                                                <div class="label-bg"></div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- /.portfolio-wrapper -->
+                                                </div>
+                                                <!-- /.portfolio -->
+
+                                                <!-- .portfolio -->
+                                                <div class="portfolio catWeb" data-cat="catWeb">
+                                                    <!-- .portfolio-wrapper -->
+                                                    <div class="portfolio-wrapper">
+                                                            <img src="./owner/images/portfolio/6.jpg" alt="Graph Plotting"/>
+
+                                                            <div class="label">
+                                                                <div class="label-text">
+                                                                    <a class="text-title">苏宁网页</a>
+                                                                    <pre class="text-category aa" >项目描述:这是一个大型的电商网站</pre>
+                                                                    <pre class="text-category  bb">项目简介:1.利用动画函数和原生js实现需要的效果</pre>
+                                                                    <pre><a href="../suning/index.html" target="_blank">查看</a></pre>
+                                                                </div>
+                                                                <div class="label-bg"></div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- /.portfolio-wrapper -->
+                                                </div>
+                                                <!-- /.portfolio -->
+
+                                                <!-- .portfolio -->
+                                                <div class="portfolio catGraphic" data-cat="catGraphic">
+                                                    <!-- .portfolio-wrapper -->
+                                                    <div class="portfolio-wrapper">
+                                                        <img src="./owner/images/portfolio/5.jpg" alt="Graph Plotting"/>
+                                                            <div class="label">
+                                                                <div class="label-text">
+                                                                    <a class="text-title">落落社交</a>
+                                                                    <pre class="text-category aa" >项目描述:这是一个在线交友的社交软件</pre>
+                                                                    <pre class="text-category bb" >项目简介:1.利用rem的布局方式 2.采用了sass处理器3.引入jquery实现行为。</pre>
+                                                                    <pre><a href="../social/screen.html" target="_blank">查看</a></pre>
+                                                                </div>
+                                                                <div class="label-bg"></div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- /.portfolio-wrapper -->
+                                                </div>
+                                                <!-- /.portfolio -->
+
+                                                <!-- .portfolio -->
+                                                <div class="portfolio catGraphic" data-cat="catGraphic">
+                                                    <!-- .portfolio-wrapper -->
+                                                    <div class="portfolio-wrapper">
+                                                        <img src="./owner/images/portfolio/9.jpg" alt="Graph Plotting"/>
+                                                        <div class="label">
+                                                            <div class="label-text">
+                                                                <a class="text-title">uek</a>
+                                                                <pre class="text-category aa" >项目描述:这是招聘APP</pre>
+                                                                <pre class="text-category bb" >项目简介:1.利用rem的布局方式 2.采用了sass处理器3.引入jquery实现行为。</pre>
+                                                                <pre><a href="../UEK/index.html" target="_blank">查看</a></pre>
+                                                            </div>
+                                                            <div class="label-bg"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.portfolio-wrapper -->
+                                                </div>
+                                                <!-- /.portfolio -->
+
+                                                <!-- .portfolio -->
+                                                <div class="portfolio catMotion" data-cat="catMotion">
+                                                    <!-- .portfolio-wrapper -->
+                                                    <div class="portfolio-wrapper">
+
+                                                        <img src="./owner/images/portfolio/1.jpg" alt="Visual Infography"/>
+
+                                                        <div class="label ">
+                                                            <div class="label-text">
+                                                                <a class="text-title">南山旅游</a>
+                                                                <pre class="text-category aa">项目描述:这是一个旅游形的网站.</pre>
+                                                                <pre class="text-category bb">项目简介:1.这个网站使用了PHPcms内容管理系统实现了前台与后台的连接及获取,2.期间使用了jquery实现了页面的动效；</pre>
+                                                                <pre><a href="http://wzqweb.duapp.com" target="_blank">查看</a></pre>
+                                                            </div>
+                                                            <div class="label-bg"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.portfolio-wrapper -->
+                                                </div>
+                                                <!-- /.portfolio -->
+
+                                                <!-- .portfolio -->
+                                                <div class="portfolio catMotion" data-cat="catMotion">
+                                                    <!-- .portfolio-wrapper -->
+                                                    <div class="portfolio-wrapper">
+
+                                                        <img src="./owner/images/portfolio/2.jpg" alt="Visual Infography"/>
+
+                                                        <div class="label ">
+                                                            <div class="label-text">
+                                                                <a class="text-title">铁锅之家</a>
+                                                                <pre class="text-category aa">项目描述:这是一家企业类的网站.</pre>
+                                                                <pre class="text-category bb">项目简介:1.用到了react组件开发2.地图部分用到了百度地图插件3.后台用到了Ant-Design库里面的antd 4.利用express里面的路由实现页面的连接</pre>
+                                                                <pre><a href="http://115.28.25.198:8001/" target="_blank">查看</a></pre>
+                                                            </div>
+                                                            <div class="label-bg"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.portfolio-wrapper -->
+                                                </div>
+                                                <!-- /.portfolio -->
+
+
+                                                <!-- .portfolio -->
+                                                <div class="portfolio catMotion" data-cat="catMotion">
+                                                    <!-- .portfolio-wrapper -->
+                                                    <div class="portfolio-wrapper">
+                                                        <a href=""
+                                                        >
+
+                                                            <img src="./owner/images/portfolio/3.jpg" alt="Visual Infography"/>
+
+                                                            <div class="label">
+                                                                <div class="label-text">
+                                                                    <a class="text-title">康尼尔减肥网</a>
+                                                                    <pre class="text-category aa">项目描述:这是关于减肥的网站</pre>
+                                                                    <pre class="text-category bb">项目简介:1.利用react组件实现页面的精确布局，在node环境下运行。2.利用antd搭建后台页面，3.利用express里面的路由将整个项目连接</pre>
+                                                                    <pre><a href="http://115.28.25.198:8004/" target="_blank">查看</a></pre>
+                                                                </div>
+                                                                <div class="label-bg"></div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <!-- /.portfolio-wrapper -->
+                                                </div>
+                                                <!-- /.portfolio -->
+
+                                                <!-- .portfolio -->
+                                                <div class="portfolio catMotion" data-cat="catMotion">
+                                                    <!-- .portfolio-wrapper -->
+                                                    <div class="portfolio-wrapper">
+                                                        <a href=""
+                                                        >
+
+                                                            <img src="./owner/images/portfolio/4.jpg" alt="Visual Infography"/>
+
+                                                            <div class="label">
+                                                                <div class="label-text">
+                                                                    <a class="text-title">康晋食品有限公司</a>
+                                                                    <pre class="text-category aa">项目描述:这是关于食品的网站</pre>
+                                                                    <pre class="text-category bb">项目简介:1.利用react组件实现页面的精确布局，在node环境下运行。2.利用antd搭建后台页面，3.利用express里面的路由将整个项目连接</pre>
+                                                                    <pre><a href="http://115.28.25.198:8005/" target="_blank">查看</a></pre>
+                                                                </div>
+                                                                <div class="label-bg"></div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <!-- /.portfolio-wrapper -->
+                                                </div>
+                                                <!-- /.portfolio -->
+
+                                                <!-- .portfolio -->
+                                                <div class="portfolio catMotion" data-cat="catMotion">
+                                                    <!-- .portfolio-wrapper -->
+                                                    <div class="portfolio-wrapper">
+                                                        <a href=""
+                                                        >
+
+                                                            <img src="./owner/images/portfolio/2.jpg" alt="Visual Infography"/>
+
+                                                            <div class="label">
+                                                                <div class="label-text">
+                                                                    <a class="text-title">铁府网</a>
+                                                                    <pre class="text-category aa">项目描述:这是关于铁壶,铁器的网站</pre>
+                                                                    <pre class="text-category bb">项目简介:1.利用react组件实现页面的精确布局，在node环境下运行。2.利用antd搭建后台页面，3.利用express里面的路由将整个项目连接</pre>
+                                                                    <pre><a href="http://115.28.25.198:8003/" target="_blank">查看</a></pre>
+                                                                </div>
+                                                                <div class="label-bg"></div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <!-- /.portfolio-wrapper -->
+                                                </div>
+                                                <!-- /.portfolio -->
+
+
+                                                <!-- .portfolio -->
+                                                <div class="portfolio game" data-cat="game">
+                                                    <!-- .portfolio-wrapper -->
+                                                    <div class="portfolio-wrapper">
+                                                            <img src="./owner/images/portfolio/11.jpg" alt="Mobi Sock"/>
+
+                                                            <div class="label">
+                                                                <div class="label-text">
+                                                                    <a class="text-title">五子棋</a>
+                                                                    <pre class="text-category aa">这是一个娱乐性的游戏，可以在闲暇时刻轻松一下</pre>
+                                                                    <pre><a href="../snike/wiziqi.html" target="_blank">查看</a></pre>
+                                                                </div>
+                                                                <div class="label-bg"></div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- /.portfolio-wrapper -->
+                                                </div>
+                                                <!-- /.portfolio -->
+
+                                                <!-- .portfolio -->
+                                                <div class="portfolio game" data-cat="game">
+                                                    <!-- .portfolio-wrapper -->
+                                                    <div class="portfolio-wrapper">
+                                                            <img src="./owner/images/portfolio/12.jpg"
+                                                                 alt="Village Community Church"/>
+
+                                                            <div class="label">
+                                                                <div class="label-text">
+                                                                    <a class="text-title ">贪吃蛇</a>
+                                                                    <pre class="text-category aa">这是一个娱乐性的游戏，可以在闲暇时刻轻松一下</pre>
+                                                                    <pre><a href="../snike/tanchishe.html" target="_blank">查看</a></pre>
+                                                                </div>
+                                                                <div class="label-bg"></div>
+                                                            </div>
+                                                    </div>
+                                                    <!-- /.portfolio-wrapper -->
+                                                </div>
+                                                <!-- /.portfolio -->
+
+                                                <!-- .portfolio -->
+                                                <div class="portfolio game" data-cat="game">
+                                                    <!-- .portfolio-wrapper -->
+                                                    <div class="portfolio-wrapper">
+                                                        <img src="./owner/images/portfolio/12.jpg"
+                                                             alt="Village Community Church"/>
+
+                                                        <div class="label">
+                                                            <div class="label-text">
+                                                                <a class="text-title ">静态服务器</a>
+                                                                <pre class="text-category aa">描述:轻松管理文件夹</pre>
+                                                                <pre class="text-category bb">使用:1.下载:npm install wzqserver 2.在命令提示符里cd到任意文件夹,键入命令:wzqserver</pre>
+                                                            </div>
+                                                            <div class="label-bg"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.portfolio-wrapper -->
+                                                </div>
+                                                <!-- /.portfolio -->
+
+                                                <div class="clear"></div>
+
+                                            </div>
+                                            <!-- #portfoliolist -->
+                                        </div>
+                                        <!-- /.container-portfolio -->
+                                    </div>
+                                    <!-- 联系我 -->
+                                    <div id="contact" class="content_2">
+
+                                        <h1 class="h-bloc">联系我</h1>
+
+
+                                        <div class="row">
+
+                                            <div class="col-lg-12">
+                                                <div id="map"><p style="text-align:center;padding-top:20px;">
+                                                    ~~谷歌地图不能正常显示~~</p></div>
+                                            </div>
+
+                                            <div class="col-lg-12">
+                                                <div class="row" id="contact-user">
+                                                    <div class="col-md-5">
+                                                        <div class="contact-info">
+                                                            <!--<h3 class="main-heading"><span>Contact info</span></h3>-->
+
+                                                            <div class="title_content" style="float: none;">
+                                                                <div class="text_content">联系信息</div>
+                                                                <div class="clear"></div>
+                                                            </div>
+
+                                                            <ul>
+                                                                <li><span class="span-info"><i
+                                                                        class="glyphicon glyphicon-map-marker"></i> 位置:</span>
+                                                                    山西太原<br/><br/></li>
+                                                                <li><span class="span-info"><i
+                                                                        class="glyphicon glyphicon-envelope"></i> 邮件:</span>
+                                                                    13994264865@139.com
+                                                                </li>
+                                                                <li><span class="span-info"><i
+                                                                        class="glyphicon glyphicon-phone"></i> 电话:</span>
+                                                                    13994264865
+                                                                </li>
+                                                                <li><span class="span-info"><i
+                                                                        class="glyphicon glyphicon-globe"></i> 网站:</span>
+                                                                    http://ownerweb.duapp.com/
+                                                                </li>
+                                                                <li><span class="span-info"><i
+                                                                        class="glyphicon glyphicon-comment"></i> QQ:</span>
+                                                                    1030643174
+                                                                </li>
+                                                                <li><span class="span-info"><i
+                                                                        class="glyphicon glyphicon-thumbs-up"></i> 微信:</span>
+                                                                    1030643174
+                                                                </li>
+                                                                <li><span class="span-info"><i
+                                                                        class="glyphicon glyphicon-unchecked"></i> 微博:</span>
+                                                                    13994264865
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <!-- /Contact Info -->
+                                                        <div class="clear"></div>
+
+                                                        <!--<h3 class="main-heading" style="margin-left: 22px;"><span>Follow me</span></h3>-->
+
+                                                        <div class="title_content tiltle_contacts" style="float: none;">
+                                                            <div class="text_content">关注我的社交</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+
+
+                                                        <div id="profile_social">
+                                                            <a href="#"><i class="fa fa-facebook"></i></a>
+                                                            <a href="#"><i class="fa fa-twitter"></i></a>
+                                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                            <a href="#"><i class="fa fa fa-dribbble"></i></a>
+                                                            <a href="#"><i class="fa fa-foursquare"></i></a>
+
+                                                            <div class="clear"></div>
+                                                        </div>
+
+
+                                                    </div>
+
+                                                    <div class="col-md-7">
+                                                        <!-- Contact Form -->
+                                                        <div class="title_content" style="float: none;">
+                                                            <div class="text_content">联系我</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+
+                                                        <div class="contact-form">
+                                                            <!--<h3 class="main-heading"><span>Let's keep in touch</span></h3>-->
+
+
+                                                            <div id="contact-status"></div>
+
+                                                            <form action="#" id="contactform">
+                                                                <p class="form-group" id="contact-name">
+                                                                    <label for="name">您的名字</label>
+                                                                    <input type="text" name="name"
+                                                                           class="form-control name-contact"
+                                                                           id="inputSuccess" placeholder="Name..."/>
+                                                                </p>
+
+                                                                <p class="form-group" id="contact-email">
+                                                                    <label for="email">您的邮件</label>
+                                                                    <input type="text" name="email"
+                                                                           class="form-control email-contact"
+                                                                           id="inputSuccess" placeholder="Email..."/>
+                                                                </p>
+
+                                                                <p class="form-group" id="contact-message">
+                                                                    <label for="message">留言</label>
+                                                                    <textarea name="message" cols="88" rows="6"
+                                                                              class="form-control message-contact"
+                                                                              id="inputError"
+                                                                              placeholder="Message..."></textarea>
+                                                                </p>
+                                                                <input type="reset" name="reset" value="取消"
+                                                                       class="reset">
+                                                                <!-- <input type="submit" name="submit" value="SEND MESSAGE" class="submit">-->
+
+                                                                <section class="button-demo"
+                                                                         style="display: inline-block;">
+                                                                    <button class="ladda-button submit send_email"
+                                                                            name="submit" data-color="green"
+                                                                            data-style="expand-left">发送
+                                                                    </button>
+                                                                </section>
+
+                                                            </form>
+                                                        </div>
+                                                        <!-- /Contact Form -->
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+<script type="text/javascript" src="./owner/js/jquery.min.js"></script>
+
+<script type="text/javascript" src="./owner/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="./owner/js/jquery.cycle2.min.js"></script>
+
+<script type="text/javascript" src="./owner/js/jquery.mixitup.min.js"></script>
+
+<script type="text/javascript" src="./owner/js/jquery.prettyPhoto.js"></script>
+
+<script type="text/javascript" src="./owner/js/easyResponsiveTabs.min.js"></script>
+
+<script type="text/javascript" src="./owner/js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+<script type="text/javascript" src="./owner/js/main.js"></script>
+
+</body>
+</html>
